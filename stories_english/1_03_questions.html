@@ -77,26 +77,27 @@ div{
 	font-weight: normal;
 
 }
+
+
+p {
+  
+  font-family:"Comic Sans MS";
+
+}
+
+
 </style>
 </head>
 <body class="centered_bold">
 
 <div class="big"> 
-<!--${
-"define" : "はい",
-"require" : ["猫"]
-}-->
-<!--${
-"define" : "いいえ",
-"require" : ["猫"]
-}-->
-<p>&#12868<ruby>猫<rt>ねこ</rt></ruby> 
-&#10068
-<br> &#128056 : いいえ
+<p>Are you a cat &#10068
+<br>	
+<br> &#128056 : no
 <br> 
-&#128568: はい 
+&#128568: yes
 <br>
-&#128045 : いいえ</p>
+&#128045 : no</p>
 </div>
  
 <div class="big_card">
@@ -106,14 +107,14 @@ div{
 }-->
 <p>
 &#128056<br>
-かえる
+Frog
 </p>
 </div>
  
 <div class="card big">
 <p>&#128056
 <br>
-&#128266  <span class="onomatopea">ケロケロ</span> 
+&#128266  <span class="onomatopea">Ribbit Ribbit</span> 
 </p>
 </div>
 
@@ -125,12 +126,12 @@ div{
 }-->
 <p>
 <span class = "whiter" style="border:8px; border-style:solid; padding: 20px;border-radius: 25px;">
-<span class="onomatopea">きゃあ</span>&#8252; 怖い!</span>
+<span class="onomatopea">Ahhh</span>&#8252; It's scary!</span>
 <br>
 &#9660;
 <br>
 &#128561;<br>
-<ruby>怖<rt>こわ</rt></ruby>い
+Scary
 </p> 
 </div>
 
@@ -139,9 +140,9 @@ div{
 <p>
 &#129499;&#8205;&#9794;&#65039;
 <br>
-&#12868 ドラキュラ<span class="particle">は</span><ruby>怖<rt>こわ</rt></ruby>い &#10068
+Is Dracula scary &#10068
 <br>
-&#128576 : はい、<ruby>怖<rt>こわ</rt></ruby>い
+&#128576 : Yes he is
 </div> 
  
  
@@ -149,22 +150,22 @@ div{
 <p>
 &#128056 
 <br>
-&#12868 かえる<span class="particle">は</span><ruby>怖<rt>こわ</rt></ruby>い &#10068<br>
-&#128573 : いいえ、<ruby>怖</ruby><font color="red">くな</font>い
+Are frogs scary &#10068<br>
+&#128573 : No they aren't
 </p>
 </div>
 
 <div class="big">
 &#127877; <br>
-&#12868 サンタ<span class="particle">は</span><font color = "red"><ruby>赤<rt>あか</rt></ruby></font>い &#10068<br>
-&#128568 : はい、<font color = "red"><ruby>赤</ruby></font>い
+Is Santa red &#10068<br>
+&#128568 : Yes he is 
 </div>
 
 
 <div class="big">
 <p>
 &#127877 <br>
-&#12868 サンタ<span class="particle">は</span><ruby>怖</ruby>い &#10068
+Is Santa Scary &#10068
 </p>
 </div>
 
@@ -178,7 +179,7 @@ div{
 
 <div class="big">
 <p>
-&#128571 : いいえ&#65377; <ruby>怖<rt>こわ</rt></ruby><font color="red">くな</font>い&#65377;
+&#128571 : No he isn't
 </p>
 </div>
 
@@ -191,7 +192,7 @@ require : [NULL]
 <p>
 &#129395; &#128514;
 <br>
-<ruby>楽<rt>たの</rt></ruby>しい
+Fun
 </p>
 </div>
 
@@ -200,8 +201,8 @@ require : [NULL]
 <p>
 &#129313 
 <br>
-&#12868 ピエロは<ruby>楽<rt>たの</rt></ruby>しい &#10068<br>
-&#128569; : はい、 <ruby>楽<rt>たの</rt></ruby></font>しい
+&#12868 Is Pierro fun &#10068<br>
+&#128569; : Yes he is
 </div>
 
 <div class="big_card">
@@ -211,7 +212,7 @@ require : [NULL]
 }-->
 <p>&#128170
 <br>
-<ruby>強<rt>つよ</rt></ruby>い
+Strong
 </p>
 </div>
  
@@ -219,9 +220,9 @@ require : [NULL]
 <p>
 &#129312; 
 <br>
-&#12868 
-チャック・ノリス<span class="particle">は</span><ruby>強<rt>つよ</rt></ruby>い &#10068<br>
-&#129301; : はい、 <ruby>強<rt>つよ</rt></ruby>い
+Is Chuck Norris Strong &#10068
+<br>
+&#129301; : Yes he is
 </div> 
 
 
@@ -229,11 +230,10 @@ require : [NULL]
 <p>
 &#129499;&#8205;&#9794;&#65039;
 <br>
-&#12868 
-ドラキュラ<span class="particle">は</span><ruby>楽<rt>たの</rt></ruby>しい &#10068<br>
-&#128520; : いいえ&#65377; <ruby>楽<rt>たのし</rt></ruby><font color="red">くな</font>い&#65377;
+Is Dracula fun &#10068<br>
+&#128520; : No he isn't.
 <br>
-<ruby>強<rt>つよ</rt></ruby><font color="red">くて</font><ruby>怖<rt>こわ</rt></ruby>い&#65377;
+He is strong and scary.
 </div> 
 
 
@@ -243,31 +243,27 @@ require : [NULL]
 "require" : ["ピエロ", "楽しい"]
 }-->
 <p>
-<span class = "whiter" style="border:8px; border-style:solid; padding: 15px;border-radius: 25px;"><ruby>楽<rt>たの</rt></ruby>しいだ</span> 
+<span class = "whiter" style="border:8px; border-style:solid; padding: 15px;border-radius: 25px;">It's fun</span> 
 <br>
 &#9660;
 <br>
 &#129313 
 <br>
-ピエロ<span class="particle">は</span>
- [<ruby>楽<rt>たの</rt></ruby>しいだ</span>]
- <span class="particle">と</span><ruby>言<rt>い</rt></ruby>う&#128395;
+'It's fun' says Pierro &#128395;
 </p>
 </div> 
 
 <div class="big">
 
 <p>
-<span class = "whiter" style="border:8px; border-style:solid; padding: 15px;border-radius: 25px;"><ruby>強<rt>つよ</rt></ruby>いだ</span> 
+<span class = "whiter" style="border:8px; border-style:solid; padding: 15px;border-radius: 25px;">I am strong</span> 
 <br>
 &#9660;
 <br>
 &#129312;  
 <br>
-チャック・ノリス<span class="particle">は</span>
 <br>
- [<ruby>強<rt>つよ</rt></ruby>いだ</span>]
- <span class="particle">と</span><ruby>言<rt>い</rt></ruby>う&#128395;
+'I am strong' says Chuck Norris &#128395;
 </p>
 </div> 
 
@@ -276,9 +272,10 @@ require : [NULL]
 <div class="big last_div">
 
 <p >
-  <span class="ruby_under"><a href="../."><ruby>&#127968;<rt> ホーム </rt></ruby></a></span> *** <ruby>終<rt>お</rt></ruby>わり *** <a href="./1_04_love.html"><ruby> &#10140;<rt><ruby>次<rt>つぎ</rt></ruby></rt></ruby></a></p>
+  <span class="ruby_under"><a href="../."><ruby>&#127968;<rt> Home </rt></ruby></a></span> *** End *** <a href="../lab.html"><span class="ruby_under"><ruby> &#10140;<rt>Next</rt></ruby></a></span></p>
 
 </div>
+
 
 <script src="https://twemoji.maxcdn.com/2/twemoji.min.js?12.0.0"></script>
 <script>
