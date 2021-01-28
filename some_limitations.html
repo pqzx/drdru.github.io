@@ -142,40 +142,43 @@ This is a set of what I call stories that start by defining simple words such as
 
 So far I have only heard of Lingua Latina per se Illustrata proposing the same type of approach. If you have any other reference please share!
 </p>
-Pros:
+Pros:<br>
 
-    it is fast to load
-    almost no tap / click required from the user
-    fun (depending of your definition of fun)
-    uses clues from the context to understand the language (vs using the knowledge of how the app works to increase you score)
-    creates a continuous scale to rank the progression of the user. If you give me a sentence, I can tell you exactly where in the path of stories the user must be to understand it.
+    it is fast to load<br>
+    almost no tap / click required from the user<br>
+    fun (depending of your definition of fun)<br>
+    uses clues from the context to understand the language (vs using the knowledge of how the app works to increase you score)<br>
+    creates a continuous scale to rank the progression of the user. If you give me a sentence, I can tell you exactly where in the path of stories the user must be to understand it.<br>
 
-The second thing I came up with is an app that shows sentences to the user. The user then needs to tap True if the sentence is True and False otherwise. It is based on the stories mentioned above so the words and sentences should be familiar to the user. It does not show any furiganas so that the user is forced to remember both the meaning and the reading of the kanji used. It is supported by what I called a monolingual recursive dictionary (more on this later) that helps the user if he does not know the meaning or reading of a word.
+<p>
+The second thing I came up with is an app that shows sentences to the user. The user then needs to tap True if the sentence is True and False otherwise. It is based on the stories mentioned above so the words and sentences should be familiar to the user. It does not show any furiganas so that the user is forced to remember both the meaning and the reading of the kanji used. It is supported by what I called a monolingual recursive dictionary (more on this later) that helps the user if he does not know the meaning or reading of a word.<br>
 
 You can find a demo here : https://necodesca.herokuapp.com/how_it_works.html
+</p>
 
-Pros:
+Pros:<br>
 
-    it exposes the user to a lot of sentences
-    only one tap / click required from the user by sentence
-    by not making any reference to English it can scale fairly well. All you need to do is add a sentence and a 1 if True or a 0 if False.
+    it exposes the user to a lot of sentences<br>
+    only one tap / click required from the user by sentence<br>
+    by not making any reference to English it can scale fairly well. All you need to do is add a sentence and a 1 if True or a 0 if False.<br>
 
-The last tool I have been working on is what I call 'A Monolingual Recursive dictionary'.
+The last tool I have been working on is what I call 'A Monolingual Recursive dictionary'.<br>
 
+<p>
 The idea is to have a monolingual 'dictionary' usable from day 1. Here is how it works. Say you see the sentence ネズミはチーズを食べる and don't know what ネズミ is. Then if you click on it it shows you a picture/emoji of a mouse and you understand what ネズミ means. Same for チーズ. If you click on '食べる', you will see 猿はバナナを食べる. It is a very imperfect definition of 食べる but since the monkey is very often associated to 'eating bananas' you are supposed to make the connection. But what if in the definition of 食べる you do not understand 猿? Then all you need to do is click on it and you will see a picture/emoji of a monkey. Same if you do not understand バナナ.
-
+<br>
 You can find one basic example here : https://necodesca.herokuapp.com/emoquestions/2?score=0
-
+<br>
 So the novelty here is that whatever word you start with if you click on the words in the definition you are garantee to end with a very basic word / picture that you are expected to understand (it has a directed acyclic graph structure).
-
+<br>
 All the code is open source and can be found here https://github.com/DrDru/emoquizz
-
+<br>
 All of this is not to say that I have found the method that will make you fluent in N days but that we could improve on what is already existing.
-
+<br>
 All of the tools I propose are not meant to replace your favorite method / tool but potentially to supplement it.
-
+<br>
 Maybe one day we will learn Japanese like Trinity learns to fly a B-21-2 helicopter but this day is yet to come! https://www.youtube.com/watch?v=SoAk7zBTrvo
-
+<br>
 Thank you for reading this far !
 
 </p>	
