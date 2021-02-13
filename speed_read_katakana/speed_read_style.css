@@ -1,0 +1,21 @@
+#start-screen, #game-screen, #options-screen {
+    opacity: 1;
+}
+
+
+
+.start #start-screen, .game #game-screen, .options #options-screen {
+    opacity: 1;
+    transition: 1s;
+}
+
+
+
+.show {
+    display: block;
+}
+
+
+.hide {
+    display: none;
+}
