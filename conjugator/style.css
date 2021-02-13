@@ -1,0 +1,356 @@
+/* Basic element styling */
+html {
+    font-family: "Hiragino Maru Gothic Pro", Osaka, "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 250px;
+    font-size: 20pt;
+    padding: 12px 0;
+    border-width: 0;
+    border-radius: 5px;
+    color: #ecf0f1;
+    background: #2980b9;
+}
+
+button:hover {
+    background: #3498db;
+    color: black;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+/* Global styles */
+#title {
+    margin: 0;
+    padding: 50px 0;
+    width: 100%;
+    text-align: center;
+    background: #ecf0f1;
+    font-size: 36pt;
+    font-weight: normal;
+    z-index: 2;
+}
+
+#screen-container {
+    max-width: 800px;
+    position: relative;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.game #title, .options #title {
+    font-size: 15pt;
+    padding: 10px 0;
+    transition: 1s;
+}
+
+#start-screen, #game-screen, #options-screen {
+    opacity: 0;
+}
+
+.start #start-screen, .game #game-screen, .options #options-screen {
+    opacity: 1;
+    transition: 1s;
+}
+
+/* Options page styles */
+.options-section:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.checkboxContainer {
+    display: inline-block;
+}
+
+.labelContainer {
+    display: inline-block;
+}
+
+.option-label {
+    display: inline-block;
+    font-size: 16pt;
+    padding-top: 10px;
+    width: 240px;
+    height: 40px;
+    top: 10px;
+    position: relative;
+}
+
+.check-box {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    background: #ecf0f1;
+    border-radius: 50px;
+    position: relative;
+    margin-right: 40px;
+}
+
+.check-box:before {
+    content: 'On';
+    position: absolute;
+    top: 12px;
+    left: 13px;
+    height: 2px;
+    color: #2980b9;
+    font-size: 12pt;
+}
+
+.check-box:after {
+    content: 'Off';
+    position: absolute;
+    top: 12px;
+    left: 84px;
+    height: 2px;
+    color: #e74c3c;
+    font-size: 12pt;
+}
+
+.check-box label {
+    display: block;
+    width: 52px;
+    height: 22px;
+    border-radius: 50px;
+    transition: all .5s ease;
+    cursor: pointer;
+    position: absolute;
+    top: 9px;
+    z-index: 1;
+    left: 12px;
+    background: #707070;
+}
+
+.check-box input[type=checkbox]:checked + label {
+    left: 60px;
+    background: #3498db;
+}
+
+/* Game styles */
+#info {
+    padding: 0px 10px;
+}
+
+#question {
+    font-size: 30pt;
+    line-height: 1em;
+}
+
+#question-word {
+    margin-bottom: 5px;
+}
+
+#def {
+    font-size: 18pt;
+    font-family: sans-serif;
+    line-height: 1.2em;
+}
+
+#meaning {
+    color: #707070;
+}
+
+#ribbon {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+}
+
+#mods {
+    margin-left: -3px;
+    overflow: hidden;
+    padding: 10px 0;
+    font-family: sans-serif;
+    font-size: 13pt;
+    min-height: 40px;
+}
+
+.mod {
+    display: inline-block;
+    color: #ecf0f1;
+    background: #555;
+    margin: 0 5px 5px 0;
+    padding: 7px;
+    border-radius: 5px;
+    animation-name: appear;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in;
+}
+
+.mod:hover {
+    background: #13a4e7;
+}
+
+@keyframes appear {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.space {
+    color: white;
+    float: left;
+    width: 200px;
+}
+
+#scoreboard {
+    background: #ecf0f1;
+    border-radius: 5px;
+    font-family: Consolas, monospace;
+    padding: 10px;
+    position: absolute;
+    font-size: 1.2em;
+    overflow: hidden;
+    right: 2em;
+    text-align: right;
+    text-overflow: ellipsis;
+    top: 2em;
+    white-space: nowrap;
+    width: 100px;
+}
+
+.lb-text {
+    color: #3498db;
+}
+
+#mult {
+    font-weight: bold;
+}
+
+#grammarType {
+  margin-right: 16px;
+}
+
+.flash {
+    animation-name: flash;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes flash {
+    0%   { background-color: #3498db; }
+    100% { background-color: none; }
+}
+
+.flash-red {
+    animation-name: flashr;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes flashr {
+    0% { background-color: #e74c3c;}
+    100% {background-color: none;}
+}
+
+#time-bar {
+    margin: 0 5px;
+    padding: 12px 10px;
+    border-radius: 6px;
+    background-image: linear-gradient(left, #3498db 50%, #ecf0f1 50%);
+}
+
+textarea:focus {
+    outline: 0;
+}
+
+textarea {
+    background-color: #ecf0f1;
+    border: 0;
+    border-radius: 6px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: block;
+    height: 1.2em;
+    font-size: 30pt;
+    font-family: "Hiragino Maru Gothic Pro", Osaka, "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    overflow: hidden;
+    resize: none;
+    width: 100%;
+}
+
+input[type=checkbox] {
+    visibility: hidden;
+}
+
+/**/
+#well {
+    margin: 32px 5px;
+}
+
+.wellitem {
+  margin: 4px 0;
+  color: black;
+  font-size: 15pt;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.wellitem a {
+    text-decoration: none;
+    color: #004;
+}
+
+.well-left {
+    display:block;
+    width: 30%;
+}
+
+.wellitem .mods {
+  font-family: sans-serif;
+  display: block;
+  width: 60%;
+}
+
+.well-right {
+  float: right;
+}
+
+.well-left {
+  float: left;
+}
+
+.correct {
+  background: #8fc389;
+}
+
+.skipped {
+    background: #ff9f99;
+}
+
+.striken{
+  text-decoration: line-through;
+}
+
+.debug{
+  cursor: pointer;
+}
+
+.debug-out{
+  background-color: yellow;
+}
+
+.clear {
+    clear: both
+}
