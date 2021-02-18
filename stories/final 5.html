@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+
+<style>
+
+.ruby_under {
+
+  ruby-position: under;
+
+}
+
+a {
+	
+	color: white;
+	text-decoration: none;
+
+}
+
+.next{
+
+	text-align: right;
+	margin-right : 10%;
+	font-size: 130%;
+	
+}
+
+
+.centered_bold {
+
+	text-align: center;
+	font-weight: bold;
+
+}
+
+#left {
+
+	text-align : left;
+	margin-left : 10%;
+}
+
+#right {
+
+	text-align : right;
+	margin-right : 10%;
+}
+
+.particle {
+
+	font-weight: normal;
+
+}
+
+.full_screen {
+
+   font-size: 260%;
+
+}
+
+div.square {
+  
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.onomatopea {
+
+    font-weight: normal;
+	font-style: italic;
+	
+}
+
+.big {
+
+   font-size: 350%;
+
+}
+
+.lefter {
+
+font-size: 75%;
+
+}
+
+.big_card {
+
+	font-size: 400%;	
+}
+
+.card{
+
+   margin-bottom: 170px;
+ 
+ }
+ 
+td, th {
+  
+  text-align: center;
+  
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+} 
+
+#christmas_tree {
+
+	font-size: 200%;	
+	
+}
+
+.black {
+
+	color: black;
+	
+}
+
+.yellow{
+
+	color: yellow;
+	
+}
+
+.green {
+
+	color: green;
+	
+}
+
+.blue {
+
+	color: blue;
+	
+}
+
+
+.white {
+
+	color: white;
+	
+}
+
+.red {
+
+	color: red;
+	
+}
+
+
+
+.white_background {
+
+	background-color:white;
+	
+}
+
+.orange_background {
+
+	background-color: orange;
+	color: orange;
+}
+
+.black {
+
+	color: black;
+}
+
+.yellow_background {
+
+	background-color: yellow;
+
+}
+
+
+
+div.white_square {
+  
+  width: 80px;
+  height: 80px;
+  background-color:white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.blue_square {
+  
+  width: 80px;
+  height: 80px;
+  background-color:blue;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.green_square {
+  
+  width: 80px;
+  height: 80px;
+  background-color:green;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.whiter {
+
+    background-color: white;
+	
+}
+.card {
+
+   margin-bottom: 170px;
+ 
+ }
+
+ 
+.main_background {
+
+	background-color: #066b26;
+	
+
+}
+
+.black_background {
+
+	background-color:black;
+	
+	
+}
+
+
+.blue_background {
+
+	background-color:blue;
+	
+	
+}
+
+
+
+
+.grey_background {
+
+	background-color: grey;
+	
+}
+
+.big_twittemoji .emoji {
+    height: 160px;
+    width: 160px;
+
+}
+
+
+p {
+	
+	color: white;
+
+}
+
+
+.hole {
+
+ border-radius: 190px;
+  display: inline-block;
+  
+    color: black;
+    border: 8px solid white;
+
+}
+
+.eye {
+
+border: 1px solid white;
+	border-radius: 190px;
+}
+
+.ocean {
+
+display: inline-block;
+  height: 120px;
+  width: 400px;
+}
+
+.light_green_background {
+
+	background-color: #7cbf5b;
+
+
+
+}
+
+.town {
+
+	width: 350px;
+	  display: inline-block;
+  margin: 0 auto;
+
+}
+
+.pixelart-to-css {
+  box-shadow: 50px 10px 0 0 rgba(0, 0, 0, 1), 60px 10px 0 0 rgba(0, 0, 0, 1), 70px 10px 0 0 rgba(0, 0, 0, 1), 80px 10px 0 0 rgba(0, 0, 0, 1), 90px 10px 0 0 rgba(0, 0, 0, 1), 100px 10px 0 0 rgba(0, 0, 0, 1), 110px 10px 0 0 rgba(0, 0, 0, 1), 120px 10px 0 0 rgba(0, 0, 0, 1), 30px 20px 0 0 rgba(0, 0, 0, 1), 40px 20px 0 0 rgba(0, 0, 0, 1), 50px 20px 0 0 rgba(255, 152, 0, 1), 60px 20px 0 0 rgba(255, 152, 0, 1), 70px 20px 0 0 rgba(255, 152, 0, 1), 80px 20px 0 0 rgba(255, 152, 0, 1), 90px 20px 0 0 rgba(255, 152, 0, 1), 100px 20px 0 0 rgba(255, 193, 7, 1), 110px 20px 0 0 rgba(255, 193, 7, 1), 120px 20px 0 0 rgba(255, 193, 7, 1), 130px 20px 0 0 rgba(0, 0, 0, 1), 20px 30px 0 0 rgba(0, 0, 0, 1), 30px 30px 0 0 rgba(255, 152, 0, 1), 40px 30px 0 0 rgba(255, 152, 0, 1), 50px 30px 0 0 rgba(255, 255, 255, 1), 60px 30px 0 0 rgba(255, 255, 255, 1), 70px 30px 0 0 rgba(255, 152, 0, 1), 80px 30px 0 0 rgba(255, 152, 0, 1), 90px 30px 0 0 rgba(255, 193, 7, 1), 100px 30px 0 0 rgba(0, 0, 0, 1), 110px 30px 0 0 rgba(0, 0, 0, 1), 120px 30px 0 0 rgba(0, 0, 0, 1), 10px 40px 0 0 rgba(0, 0, 0, 1), 20px 40px 0 0 rgba(255, 152, 0, 1), 30px 40px 0 0 rgba(255, 152, 0, 1), 40px 40px 0 0 rgba(0, 0, 0, 1), 50px 40px 0 0 rgba(0, 0, 0, 1), 60px 40px 0 0 rgba(255, 255, 255, 1), 70px 40px 0 0 rgba(255, 152, 0, 1), 80px 40px 0 0 rgba(255, 152, 0, 1), 90px 40px 0 0 rgba(0, 0, 0, 1), 100px 40px 0 0 rgba(255, 193, 7, 1), 110px 40px 0 0 rgba(0, 0, 0, 1), 10px 50px 0 0 rgba(0, 0, 0, 1), 20px 50px 0 0 rgba(255, 152, 0, 1), 30px 50px 0 0 rgba(255, 152, 0, 1), 40px 50px 0 0 rgba(0, 0, 0, 1), 50px 50px 0 0 rgba(0, 0, 0, 1), 60px 50px 0 0 rgba(255, 255, 255, 1), 70px 50px 0 0 rgba(255, 152, 0, 1), 80px 50px 0 0 rgba(255, 152, 0, 1), 90px 50px 0 0 rgba(255, 193, 7, 1), 100px 50px 0 0 rgba(0, 0, 0, 1), 10px 60px 0 0 rgba(0, 0, 0, 1), 20px 60px 0 0 rgba(255, 152, 0, 1), 30px 60px 0 0 rgba(255, 152, 0, 1), 40px 60px 0 0 rgba(255, 152, 0, 1), 50px 60px 0 0 rgba(255, 152, 0, 1), 60px 60px 0 0 rgba(255, 152, 0, 1), 70px 60px 0 0 rgba(255, 152, 0, 1), 80px 60px 0 0 rgba(255, 193, 7, 1), 90px 60px 0 0 rgba(255, 193, 7, 1), 100px 60px 0 0 rgba(0, 0, 0, 1), 150px 60px 0 0 rgba(0, 0, 0, 1), 10px 70px 0 0 rgba(0, 0, 0, 1), 20px 70px 0 0 rgba(255, 152, 0, 1), 30px 70px 0 0 rgba(0, 0, 0, 1), 40px 70px 0 0 rgba(0, 0, 0, 1), 50px 70px 0 0 rgba(0, 0, 0, 1), 60px 70px 0 0 rgba(0, 0, 0, 1), 70px 70px 0 0 rgba(0, 0, 0, 1), 80px 70px 0 0 rgba(255, 193, 7, 1), 90px 70px 0 0 rgba(0, 0, 0, 1), 140px 70px 0 0 rgba(0, 0, 0, 1), 150px 70px 0 0 rgba(255, 193, 7, 1), 160px 70px 0 0 rgba(0, 0, 0, 1), 20px 80px 0 0 rgba(0, 0, 0, 1), 50px 80px 0 0 rgba(0, 0, 0, 1), 60px 80px 0 0 rgba(0, 0, 0, 1), 70px 80px 0 0 rgba(255, 193, 7, 1), 80px 80px 0 0 rgba(255, 193, 7, 1), 90px 80px 0 0 rgba(0, 0, 0, 1), 130px 80px 0 0 rgba(0, 0, 0, 1), 140px 80px 0 0 rgba(255, 193, 7, 1), 150px 80px 0 0 rgba(0, 0, 0, 1), 40px 90px 0 0 rgba(0, 0, 0, 1), 50px 90px 0 0 rgba(255, 235, 59, 1), 60px 90px 0 0 rgba(255, 235, 59, 1), 70px 90px 0 0 rgba(255, 193, 7, 1), 80px 90px 0 0 rgba(255, 193, 7, 1), 90px 90px 0 0 rgba(0, 0, 0, 1), 110px 90px 0 0 rgba(0, 0, 0, 1), 120px 90px 0 0 rgba(0, 0, 0, 1), 130px 90px 0 0 rgba(255, 193, 7, 1), 140px 90px 0 0 rgba(255, 193, 7, 1), 150px 90px 0 0 rgba(255, 193, 7, 1), 160px 90px 0 0 rgba(0, 0, 0, 1), 30px 100px 0 0 rgba(0, 0, 0, 1), 40px 100px 0 0 rgba(255, 235, 59, 1), 50px 100px 0 0 rgba(255, 235, 59, 1), 60px 100px 0 0 rgba(255, 235, 59, 1), 70px 100px 0 0 rgba(255, 193, 7, 1), 80px 100px 0 0 rgba(255, 193, 7, 1), 90px 100px 0 0 rgba(255, 193, 7, 1), 100px 100px 0 0 rgba(0, 0, 0, 1), 110px 100px 0 0 rgba(255, 193, 7, 1), 120px 100px 0 0 rgba(255, 193, 7, 1), 130px 100px 0 0 rgba(255, 193, 7, 1), 140px 100px 0 0 rgba(255, 193, 7, 1), 150px 100px 0 0 rgba(0, 0, 0, 1), 30px 110px 0 0 rgba(0, 0, 0, 1), 40px 110px 0 0 rgba(255, 235, 59, 1), 50px 110px 0 0 rgba(255, 235, 59, 1), 60px 110px 0 0 rgba(255, 235, 59, 1), 70px 110px 0 0 rgba(255, 152, 0, 1), 80px 110px 0 0 rgba(255, 152, 0, 1), 90px 110px 0 0 rgba(0, 0, 0, 1), 100px 110px 0 0 rgba(255, 193, 7, 1), 110px 110px 0 0 rgba(255, 193, 7, 1), 120px 110px 0 0 rgba(255, 193, 7, 1), 130px 110px 0 0 rgba(255, 193, 7, 1), 140px 110px 0 0 rgba(0, 0, 0, 1), 40px 120px 0 0 rgba(0, 0, 0, 1), 50px 120px 0 0 rgba(255, 235, 59, 1), 60px 120px 0 0 rgba(255, 152, 0, 1), 70px 120px 0 0 rgba(255, 152, 0, 1), 80px 120px 0 0 rgba(255, 152, 0, 1), 90px 120px 0 0 rgba(255, 152, 0, 1), 100px 120px 0 0 rgba(255, 193, 7, 1), 110px 120px 0 0 rgba(255, 193, 7, 1), 120px 120px 0 0 rgba(255, 193, 7, 1), 130px 120px 0 0 rgba(0, 0, 0, 1), 50px 130px 0 0 rgba(0, 0, 0, 1), 60px 130px 0 0 rgba(255, 235, 59, 1), 70px 130px 0 0 rgba(255, 152, 0, 1), 80px 130px 0 0 rgba(255, 152, 0, 1), 90px 130px 0 0 rgba(255, 152, 0, 1), 100px 130px 0 0 rgba(255, 193, 7, 1), 110px 130px 0 0 rgba(0, 0, 0, 1), 120px 130px 0 0 rgba(0, 0, 0, 1), 60px 140px 0 0 rgba(0, 0, 0, 1), 70px 140px 0 0 rgba(0, 0, 0, 1), 80px 140px 0 0 rgba(255, 152, 0, 1), 90px 140px 0 0 rgba(0, 0, 0, 1), 100px 140px 0 0 rgba(0, 0, 0, 1), 70px 150px 0 0 rgba(0, 0, 0, 1), 80px 150px 0 0 rgba(0, 0, 0, 1), 90px 150px 0 0 rgba(255, 152, 0, 1), 100px 150px 0 0 rgba(0, 0, 0, 1), 110px 150px 0 0 rgba(0, 0, 0, 1), 60px 160px 0 0 rgba(0, 0, 0, 1), 70px 160px 0 0 rgba(255, 152, 0, 1), 80px 160px 0 0 rgba(255, 152, 0, 1), 90px 160px 0 0 rgba(255, 152, 0, 1), 100px 160px 0 0 rgba(255, 152, 0, 1), 110px 160px 0 0 rgba(255, 152, 0, 1), 120px 160px 0 0 rgba(0, 0, 0, 1);
+  height: 10px;
+  width: 10px;
+}
+.test {   
+
+      display: flex;
+        width: 100%;
+        justify-content: center;
+ }
+
+ .brown_bg {
+    
+	background-color: #824e05;
+
+}
+
+
+</style>
+
+</head>
+<body  class="centered_bold main_background">
+
+
+<div class='card big'>
+	
+<p>
+🧙‍♀️ 
+<br>
+I think I can hear a Chocobo this way. With him we ll be able to travel faster in the plain. 
+</p>
+</div>
+<div class='card big'>
+	
+<p>
+🧙‍♀️ 
+<br>
+I think I can hear a Chocobo this way. With him we ll be able to travel faster in the plain. 
+</p>
+</div>
+
+
+<div class="big card">
+	
+<div class='pixelart-to-css'>
+</div>
+
+ 
+</div>
+
+<div class="big card">
+<p>&#128037; test</p>
+
+
+</div>
+
+
+<div class='card big'>
+<p>
+  
+	----- &#127794;&#127794;&#127794;&#127794;&#127794;
+	<br>&#128037; ----  &#128694;&#8205;&#9792;&#65039;  &#128694; &#127794;
+	<br>
+----- &#127794;&#127794;&#127794;&#127794;
+
+</p>
+</div>
+
+
+
+<div class='card big'>
+<p>
+  -----&#129399;&#129399;&#129399;
+	
+	<br>&#128037; &#128114;  🧙‍♀️  &#127794;&#127794;
+	<br>
+-----&#129399;&#129399;&#129399;
+
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#129399;
+	<br>
+Give us yuor money
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#128114;
+	<br>Oh no that was a trap. 
+
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+Fight
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+	they left without their treasure !
+	<br>
+&#128176;
+</p>
+</div>
+
+
+
+<div class='card big'>
+<p>
+&#128114;
+	<br>Let's leave the mountains and go to the prairies. 
+
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+たたたた <br>
+	(running at full speed onomatopeia)<br>
+ <span class="blue_background blue">-- - - - </span>&#127960; &#8656; &#128036; &#8656; &#9968;&#65039;<br>
+
+</p>
+</div>
+
+
+
+
+
+
+
+<div class='card big'>
+
+
+		<span class="blue_background blue ocean">-----&#9973;-----</span> 
+		<br>
+<div class="light_green_background town">
+<p>	&#127968; ------ &#127979; <br>
+
+	&#127968; &#127968;  ------ &#9962; <br>
+&#127968; ---- &#127968; &#127968; <br>
+</div>
+<br>
+&#128037;	&#128114; 🧙‍♀️ 
+</p>
+
+</div>
+
+
+
+<div class='brown_bg black'>
+
+
+<div class="big card black"> 
+	<p class ="black">
+
+		&#9874;
+
+<br>
+<span class="ruby_under"><ruby>&#128104;&#127995;<rt> ピエール </rt></ruby></span>
+
+
+<br>
+==================
+<br>
+		&#128481;  &#128298; &#128737; &#127993;
+
+		<br>
+		==================
+		<br>
+<span class="ruby_under"><ruby>&#128102;<rt> トト </rt></ruby></span>
+
+
+	</p>
+</div>
+</div>
+
+
+<div class="big last_div">
+<p>
+  <span class="ruby_under"><a href="../."><ruby>&#127968;<rt> ホーム </rt></ruby></a></span> *** <ruby>終<rt>お</rt></ruby>わり *** <a href="./3_05_doc.html"><ruby> &#10140;<rt><ruby>次<rt>つぎ</rt></ruby></rt></ruby></a></p>
+
+</div>
+
+    <script src="https://twemoji.maxcdn.com/2/twemoji.min.js?12.0.0"></script>
+    <script>
+      twemoji.parse(document.body);
+    </script>
+</body>
