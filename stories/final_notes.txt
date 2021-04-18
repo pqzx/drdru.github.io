@@ -1,9 +1,27 @@
+
+
+オオカミはKOだ｡ => オオカミはKOされた｡
+道で車に乗る => 車に乗って道を走る
+道の右側を車に乗る => 道の右車線を車で走る
+
+どの国で道の左側に乗る? => どの国が左側通行(左車線を走る)?
+
+電車と鉄道 は地の下で => 電車と鉄道 は地面（じめん）の下（した）で
+
+
+木から「ガオー」と聞く｡ => 木から「ガオー」という鳴き声が聞こえてくる｡
+
+魚はどの動物は野菜を食べる？ => 魚のうち　どの動物が野菜を食べる？
+
+
 Juju in the mountain..
 
 Is not a fighter. Can use ballfire up to N times during the adventure.
 But she canuse objects and plants.
 
-Climbs a mountain. Goat protector.
+Clim
+
+bs a mountain. Goat protector.
 Old Titan temple. Old qstone warrior of the mountain
 Donne a mange a un loup qui dit de venir voir quelque chose, le squelette d un homme
 
