@@ -1,0 +1,68 @@
+.ruby_under {
+
+  ruby-position: under;
+
+}
+
+.centered_bold {
+
+	text-align: center;
+
+
+}
+
+.onomatopeia {
+
+    font-weight: normal;
+	font-style: italic;
+	
+}
+
+.big {
+
+   font-size: 350%;
+
+}
+
+.card{
+
+   margin-bottom: 170px;
+ 
+ }
+
+.black {
+
+	color: black;
+	
+}
+
+.yellow{
+
+	color: yellow;
+	
+}
+
+.green {
+
+	color: green;
+	
+}
+
+
+.white {
+
+	color: white;
+	
+}
+
+.red {
+
+	color: red;
+	
+}
+
+.blue {
+
+	color: blue;
+	
+}
