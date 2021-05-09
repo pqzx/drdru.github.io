@@ -94,3 +94,32 @@
 	color: #843827;
 
 }
+
+.black_background {
+
+
+	background-color: black;
+
+}
+
+.big_twittemoji .emoji {
+    height: 160px;
+    width: 160px;
+
+}
+
+
+.small_twittemoji .emoji {
+    height: 40px;
+    width: 40px;
+}
+
+
+.onomatopeia {
+
+
+    font-size: 70%;
+    font-weight: normal;
+	font-style: italic;
+	
+}
