@@ -27,7 +27,7 @@ a {
 .centered_bold {
 
 	text-align: center;
-	font-weight: bold;
+	
 
 }
 
@@ -97,24 +97,7 @@ font-size: 75%;
  
  }
  
-td, th {
-  
-  text-align: center;
-  
-}
 
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-} 
-
-
-.main_colour {
-
-	color: #e6e6e6;
-	
-}
 
 .blue {
     
@@ -187,82 +170,22 @@ table {
 
 }
 
-.chest {
-  --gold: #feb21f;
-  --beige: #f4e2c8;
-  --black: #101010;
-  --blackLight: #707696;
-  --blackAlpha: rgba(0, 0, 0, 0.2);
-
-  position: relative;
-  width: 14rem;
-  height: 10rem;
-  border: solid var(--gold);
-  border-width: 0 1rem;
-  border-radius: 0.25rem;
-  display: flex;
-  justify-content: center;
-  background: linear-gradient(
-    var(--blackLight) 0%,
-    var(--blackLight) 30%,
-    var(--gold) 30%,
-    var(--gold) 40%,
-    var(--blackLight) 40%,
-    var(--blackLight) 100%
-  );
-  box-shadow: 0.25rem 0.25rem var(--blackAlpha);
-}
-/*shadow*/
-.chest::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  right: -1rem;
-  bottom: 0;
-  left: 50%;
-  border-radius: 0 0.25rem 0.25rem 0;
-  background-color: var(--blackAlpha);
-}
-.chest_keyholeBG {
-  position: absolute;
-  top: 40%;
-  width: 4rem;
-  height: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--gold);
-  border-radius: 0 0 50% 50% / 0 0 100% 100%;
-}
-.chest_keyhole {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.chest_keyhole::before {
-  content: "";
-  display: block;
-  width: 0.75rem;
-  height: 0.75rem;
-  border-radius: 50%;
-  background-color: var(--black);
-}
-.chest_keyhole::after {
-  content: "";
-  display: block;
-  width: 0.25rem;
-  height: 0.75rem;
-  margin-top: -0.25rem;
-  background-color: var(--black);
-}
-
 
 
 .main_color {
 
-  color: black;
+  color: #723f18;
+  
+}
 
+.black {
+
+  color: black;
+}
+
+p {
+
+  color: #c1b44d;
 }
 
 
@@ -273,41 +196,176 @@ table {
 <!-- #EFF70A-->
 
 
-<div class="big_card card">
+<div class="big_card card black">
 <p>
 &#127988;&#8205;&#9760;&#65039;<br>
  &#128114; 
 <br>
-=====================
+<span class="black">=====================</span>
   <br>
--
+<span class="main_color">-</span>
 <br>
-=====================
+<span class="black">=====================</span>
   <br>
 &#129436; &#129492;&#127995; &#129492; &#129492;&#127999;
 </p>
 </div>
 
+<div class="big_card card">
+<p>
+&#128114; 
+<br>
+こんにちは 
+</p>
+</div>
+
 
 <div class="big_card card">
+<p>
+ &#129492;&#127995; &#129492; &#129492;&#127999; &#129436;
+<br>
+こんにちは 
+</p>
+</div>
+
+<div class="card card">
+<p>
+&#129436;
+<br>
+<span class="full_screen onomatopea">こんにち</span><span class="big onomatopea">ははは</span>
+</p>
+</div>
+
+<div class="big_card card">
+<p>
+&#128114; 
+<br>
+何を飲みたい？
+</p>
+</div>
+
+<div class="big_card card">
+<p>
+&#129492;&#127995;
+<br>
+<ruby>一杯<rt>いっぱい</rt></ruby>ビール
+</p>
+</div>
+
+
+
+<div class="big_card card">
+<p>
+&#129492;
+<br>
+私も
+</p>
+</div>
+
+<div class="big_card card">
+<p>
+&#129492;&#127999;
+<br>
+<ruby>一杯<rt>いっぱい</rt></ruby>のワインと 
+</p>
+</div>
+
+<div class="big_card card">
+<p>
+？？
+<br> 
+&#129492;&#127995; &#129492;
+</p>
+</div>
+
+<div class="card card">
+<p>
+&#129436;
+<br>
+&#129371; <span class="full_screen onomatopea">1杯の牛</span><span class="big onomatopea">乳！！</span>
+</p>
+</div>
+
+
+<div class="big_card card ">
 <p>
 
  &#128114; 
 <br>
-=====================
+<span class="black">=====================</span>
   <br>
-&#127866; &#129371; &#129347; &#127863;
+&#127866; &#127866; &#127863; &#129371;
 <br>
-=====================
+<span class="black">=====================</span>
   <br>
-&#129436; &#129492;&#127995; &#129492; &#129492;&#127999;
+ &#129492;&#127995; &#129492; &#129492;&#127999; &#129436;
+</p>
+</div>
+
+<div class="big card">
+<p>
+***
+</p>
+</div>
+
+<div class="card card">
+<p>
+<span class="onomatopea full_screen">ペチャペチャ</span> <span class="main_color big">--</span> <span class="onomatopea full_screen">ペチャペチャ</span>
+<br>
+<br>  
+&#129436; &#129371; <span class="black big">-</span> &#127866; &#129492;&#127995; <br> 
+&#129492; &#127866; <span class="black big">-</span> &#127863; &#129492;&#127999;
+</p>
+</div>
+
+<div class="card">
+<p>
+ &#129492; 
+ <br> 
+<span class="big">ビールが好き</span>
+</p>
+</div>
+
+
+<div class="card">
+<p>
+&#129492;&#127995;
+ <br> 
+<span class="big">はい</span>
+</p>
+</div>
+
+
+<div class="card">
+<p>
+<span class="onomatopea full_screen">ペチャペチャ</span> <span class="main_color big">--</span> <span class="onomatopea full_screen">ペチャペチャ</span>
+<br>
+<br>  
+&#129436; &#129371; <span class="black big">-</span> &#127866; &#129492;&#127995; <br> 
+&#129492; &#127866; <span class="black big">-</span> &#127863; &#129492;&#127999;
+</p>
+</div>
+
+
+<div class="big card">
+<p>
+ &#129492; 
+ <br> 
+宝の地図を買いたい
 </p>
 </div>
 
 
 
+
 <div class="big_card card">
 <p>
+
+<br>
+<span class="onomatopea ">ペチャペチャ</span> <span class="main_color ">--</span> <span class="onomatopea ">ペチャペチャ</span>
+<br>
+&#128117;&#127995;
+<br>
 &#129436; &#127866; - &#129371; &#129492;&#127995; <br> 
 &#129492; &#129347; - &#127863; &#129492;&#127999;
 </p>
@@ -317,17 +375,38 @@ table {
 <div class="big_card card">
 <p>
 &#128117;&#127995;
-<br>
-&#129436; &#127866; - &#129371; &#129492;&#127995; <br> 
-&#129492; &#129347; - &#127863; &#129492;&#127999;
+ <br> 
+宝の地図を買いたい？
 </p>
 </div>
 
-<div class="big_card card">
+<div class="card">
 <p>
-&#127137;
+<span class="onomatopea full_screen">...</span> <span class="main_color big">--------</span> <span class="onomatopea full_screen">...</span>
+<br>
+<br>  
+&#129436; &#129371; <span class="black big">-</span> &#127866; &#129492;&#127995; <br> 
+&#129492; &#127866; <span class="black big">-</span> &#127863; &#129492;&#127999;
 </p>
 </div>
+
+<div class="big card">
+<p>
+ &#129492; 
+ <br> 
+はい
+</p>
+</div>
+
+I have one. 1000 coins.
+
+
+Ah !
+
+No
+
+
+
  <!--&#128117; &#128117;&#127999; &#12808#723f18-->
 
 <div class="big_card card">
