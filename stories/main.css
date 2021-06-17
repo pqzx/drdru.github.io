@@ -136,3 +136,9 @@
    font-size: 260%;
 
 }
+
+.spinned .emoji {
+
+	transform: rotateY(180deg);
+
+}
