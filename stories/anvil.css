@@ -220,7 +220,8 @@
   width: 50px;
   z-index: 1;
 }
-.blacksmith .arm-right .hammer:after {
+.blacksmith .arm-right .
+:after {
   content: "";
   position: absolute;
   background-color: #666666;
@@ -463,4 +464,149 @@
 
 #link:hover {
   opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.sword2 {
+  width: 200px;
+  height: 600px;
+  position: absolute;
+  
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background-color: black;
+}
+.sword_edge, .sword_guard, .sword_grip, .sword_pommel {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.sword_edge:before, .sword_edge:after, .sword_guard:before, .sword_guard:after, .sword_grip:before, .sword_grip:after, .sword_pommel:before, .sword_pommel:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.sword_edge {
+  top: 35px;
+  width: 58px;
+  height: 336px;
+  background: linear-gradient(to right, rgba(43, 204, 203, 0.9) 50%, rgba(43, 204, 203, 0.8) 50%);
+  border-left: 10px solid #88f4df;
+  border-right: 10px solid #078f9d;
+  z-index: -1;
+}
+.sword_edge:before, .sword_edge:after {
+  width: 40px;
+  height: 40px;
+  background: #2bcccb;
+  transform: translateX(-50%) rotate(-45deg);
+}
+.sword_edge:before {
+  top: -20px;
+  border-top: 13px solid #88f4df;
+  border-right: 13px solid #078f9d;
+}
+.sword_edge:after {
+  bottom: -20px;
+  border-left: 13px solid #88f4df;
+  border-bottom: 13px solid #078f9d;
+}
+.sword_guard {
+  width: 150px;
+  height: 20px;
+  background: #517791;
+  bottom: 175px;
+  box-shadow: 0 -5px 0 0 #639bb6;
+  z-index: 1;
+}
+.sword_guard:before {
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  background: #517791;
+  transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+  box-shadow: -42px -63px 0 -22px #88f4df, 63px 42px 0 -22px #88f4df, -45px -60px 0 -18px #2bcccb, 60px 45px 0 -18px #2bcccb, -45px -60px 0 -10px #517791, 60px 45px 0 -10px #517791;
+}
+.sword_guard:after {
+  top: 50%;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 7px solid #88f4df;
+  background: #fefefe;
+  transform: translateX(-50%) translateY(-50%);
+  box-shadow: 0 0 0 4px #376885;
+}
+.sword_grip {
+  bottom: 70px;
+  width: 25px;
+  height: 90px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.3) 5px, transparent 5px), linear-gradient(to left, #9f4d2e 5px, transparent 5px), linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 10px, transparent 10px), linear-gradient(to top, rgba(0, 0, 0, 0.3) 10px, transparent 10px), linear-gradient(to right, transparent 5px, #b56938 5px, #b56938 12px, transparent 12px, transparent 20px, #9f4d2e 20px), linear-gradient(to bottom, #9f4d2e 20px, #b56938 20px, #b56938 25px, #9f4d2e 25px, #9f4d2e 35px, #b56938 35px, #b56938 40px, #9f4d2e 40px, #9f4d2e 50px, #b56938 50px, #b56938 55px, #9f4d2e 55px, #9f4d2e 65px, #b56938 65px, #b56938 70px, #9f4d2e 70px);
+}
+.sword_grip:before {
+  width: 68px;
+  height: 16px;
+  background: #7db5d0;
+  border-radius: 8px;
+  top: -12px;
+}
+.sword_grip:after {
+  width: 80px;
+  border-top: 8px solid #376885;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  top: -15px;
+}
+.sword_pommel {
+  bottom: 50px;
+  width: 42px;
+  height: 22px;
+  background: #517791;
+}
+.sword_pommel:before {
+  top: 20px;
+  width: 30px;
+  height: 30px;
+  border-top: 10px solid #fefefe;
+  border-right: 10px solid #2bcccb;
+  border-bottom: 10px solid #2bcccb;
+  border-left: 10px solid #88f4df;
+  background: #cef9f0;
+  transform: translateX(-50%) rotate(-45deg);
+  box-shadow: 0 0 0 10px #517791;
 }
