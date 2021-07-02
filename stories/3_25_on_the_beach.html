@@ -4,9 +4,9 @@
 <meta charset="utf-8"/>
 <style>
 a {
-	
-	color: black;
-	text-decoration: none;
+  
+  color: black;
+  text-decoration: none;
 
 }
 
@@ -18,46 +18,46 @@ a {
 
 .next{
 
-	text-align: right;
-	margin-right : 10%;
-	font-size: 130%;
-	
+  text-align: right;
+  margin-right : 10%;
+  font-size: 130%;
+  
 }
 
 .centered_bold {
 
-	text-align: center;
-	
+  text-align: center;
+  
 
 }
 
 .left_align {
 
-	text-align : left;
+  text-align : left;
 
 }
 
 .right_align {
 
-	text-align : right;
+  text-align : right;
 
 }
 
 #left {
 
-	text-align : left;
-	margin-left : 10%;
+  text-align : left;
+  margin-left : 10%;
 }
 
 #right {
 
-	text-align : right;
-	margin-right : 10%;
+  text-align : right;
+  margin-right : 10%;
 }
 
 .particle {
 
-	font-weight: normal;
+  font-weight: normal;
 
 }
 
@@ -70,8 +70,8 @@ a {
 .onomatopea {
 
     font-weight: normal;
-	font-style: italic;
-	
+  font-style: italic;
+  
 }
 
 .big {
@@ -88,7 +88,7 @@ font-size: 75%;
 
 .big_card {
 
-	font-size: 400%;	
+  font-size: 400%;  
 }
 
 .card {
@@ -112,63 +112,63 @@ table {
 
 .main_colour {
 
-	color: #e6e6e6;
-	
+  color: #e6e6e6;
+  
 }
 
 .blue {
     
-	color: blue;
+  color: blue;
 
 }
 
 .red{
     
-	color: #54E33D;
+  color: #54E33D;
 
 }
 
 .white {
     
-	color: white;
+  color: white;
 
 }
 
 .green_bg {
     
-	background-color:green;
+  background-color:green;
 
 }
 
 .brown_bg {
     
-	background-color:brown;
+  background-color:brown;
 
 }
 
 
 .main_bg {
     
-	color: #aeeaae;
+  color: #e0d864;
 
 }
 
 .main_background {
 
 
-  background-color: #05b560; /* 05b560*/
+  background-color: #e0d864; /* 05b560*/
 
 }
 
 .lightblue {
     
-	color: lightblue;
+  color: lightblue;
 
 }
 
 .brown_bg {
     
-	background-color: #824e05;
+  background-color: #824e05;
 
 }
 
@@ -180,7 +180,7 @@ table {
 
 .brown {
     
-	color: #824e05;
+  color: #824e05;
 
 }
 
@@ -192,14 +192,14 @@ table {
 }
 
 p {
-	color: black;
-	
+  color: black;
+  
 }
 
 
 .ruby_under {
 
-	ruby-position: under;
+  ruby-position: under;
 
 }
 
@@ -232,11 +232,89 @@ td {
 
 }
 
+
+
 .big_twittemoji .emoji {
     height: 160px;
     width: 160px;
 
 }
+.chest {
+  --gold: #feb21f;
+  --beige: #f4e2c8;
+  --black: #101010;
+  --blackLight: #707696;
+  --blackAlpha: rgba(0, 0, 0, 0.2);
+
+  position: relative;
+  width: 14rem;
+  height: 10rem;
+  border: solid var(--gold);
+  border-width: 0 1rem;
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+    var(--blackLight) 0%,
+    var(--blackLight) 30%,
+    var(--gold) 30%,
+    var(--gold) 40%,
+    var(--blackLight) 40%,
+    var(--blackLight) 100%
+  );
+  box-shadow: 0.25rem 0.25rem var(--blackAlpha);
+}
+/*shadow*/
+.chest::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -1rem;
+  bottom: 0;
+  left: 50%;
+  border-radius: 0 0.25rem 0.25rem 0;
+  background-color: var(--blackAlpha);
+}
+.chest_keyholeBG {
+  position: absolute;
+  top: 40%;
+  width: 4rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--gold);
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+}
+.chest_keyhole {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chest_keyhole::before {
+  content: "";
+  display: block;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background-color: var(--black);
+}
+.chest_keyhole::after {
+  content: "";
+  display: block;
+  width: 0.25rem;
+  height: 0.75rem;
+  margin-top: -0.25rem;
+  background-color: var(--black);
+}
+
+.test {   
+
+      display: flex;
+        width: 100%;
+        justify-content: center;
+ }
 </style>
 </head>
 
@@ -381,201 +459,259 @@ td {
 
 <div class='card big'>
 <p>
-16<ruby>時<rt>じ</rt></ruby>
+18<ruby>時<rt>じ</rt></ruby>
 <br>
 <br>
 
-  &#127796;&#127796;&#127796;&#127796;
+&#127796;&#127796;&#127796;&#127796;
 <br>
-  &#129492;&#127999;
-<br>
- ティク、
-<br>
- タク、
-<br>
-どこにいる？  
-</p>
-</div>
-
-
-<div class='card big'>
-<p>
-
-&#128483; ティィィィク
-<br><br>
-タッッッック  <span class="spinned">&#128483;</span>
+<span class="">&#129436; &#129492;&#127995; &#129492;</span>
 <br>
 <br>
-&#128066;&#127998;
+<span class="big_twittemoji">&#10060;</span>
+<br>
+&#127796;&#127796;&#127796;&#127796;
 </p>
 </div>
 
 <div class='card big'>
 <p>
-  &#127796;&#127796;&#127796;&#127796;
+&#129492; <br>
+2本のピックアックスを
 <br>
-
-  &#129492;&#127999;
+&#9935;&#65039; &#9935;&#65039;
 <br>
-私は一人  
+持っている
 </p>
 </div>
 
 
-<div class='card big'>
-<p>
-&#128694;&#127998; 
-</p>
-</div>
-
-
-
-<div class='card big'>
-<p>
-16<ruby>時<rt>じ</rt></ruby> 30<ruby>分<rt>ふん</rt></ruby>
-<br>
-<br>
-  &#127796;&#127796;&#127796;&#127796;
-<br>
-<span class="spinned">&#128694;&#127998; </span> --------- &#128018; 
-</p>
-</div>
-
-
-<div class='card big'>
-<p>
-&#129492;&#127999;
-<br>
-こんにちは、お猿さん。
-<br>
-私の友達はどこにいるの？
-</p>
-</div>
-
-
-
-<div class='card big'>
-<p>
-&#128586;
-<br>
-
-</p>
-</div>
-
-<div class='card big'>
-<p>
-&#129492;&#127999;
-<br>
-食べたい？
-<br>
-何を持っているの？
-</p>
-</div>
-
-
-
-
-<div class='card big'>
-<p>
-&#128533; &#9749;
-<br>
-コーヒーカップ？
-<br>
-いいえ
-<br>
-</p>
-</div>
-
-<div class='card big'>
-<p>
-&#128533; &#9749;
-<br>
-イタリアンレシピ本？
-<br>
-いいえ
-<br>
-</p>
-</div>
-
-
-<div class='card big'>
-<p>
-&#128512;
-<br>
- バナナ 
-<br>
-</p>
-</div>
-
-<div class='card big'>
-<p>
-
-&#128053; &#127820;
-</p>
-</div>
-
-<div class='card big'>
-<p>
-&#128053;
-<br>
-私の友達はどこにいるの？
-</p>
-</div>
-
-
-
-<div class='card big'>
-<p>
-
-* 友達 *
-<br>
- &#128173; 
-<br>
-&#128053; 
-<br>
-
-</p>
-</div>
-
-
-<div class='card big'>
-<p>
-&#128018; &#128694;&#127998; 
-</p>
-</div>
-
-
-
-<div class='card big'>
-<p>
-16<ruby>時<rt>じ</rt></ruby> 30<ruby>分<rt>ふん</rt></ruby>
-<br>
-<br>
-&#129436; &#129492;&#127995; &#129492;
-<br>
-<span class="big"></span>
-</p>
-</div>
 
 <div class='card big'>
 <p>
 &#129492;&#127995;
 <br>
+始めよう 
+</p>
+</div>
+
+<div class='card '>
+<p>
+<span class="onomatopea full_screen">ジリ<span class="main_bg">----</span>ジリ  </span>
+<br>
+<span class="big">&#129492; <span class="spinned">&#9935;&#65039;</span> &#9935;&#65039; &#129492;&#127995;</span>
+
+<br>
+<span class="">&#10060;</span>
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+&#9203;
+</p>
+</div>
+
+<div class='card big'>
+<p>
+<span class="onomatopea">ドン</span>
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#128562;
+<br>
+なに？
+<br>
+ 宝箱？
+</p>
+</div>
+
+
+
+
+<div class="card">
+</div>
+
+<div class="test big_card">
+
+  <!-- found here https://codepen.io/simon-jaeger/pen/RmPPxZ Thank you !-->
+  
+<div class="chest">
+  <div class="chest_keyholeBG">
+    <div class="chest_keyhole"></div>
+  </div>
+</div>
+</div>
+
+
+<div class='card big'>
+<p>
+&#129321; &#129321;
+<br>
+<span class="onomatopea"> イェイ </span>
+</p>
+</div>
+
+<div class='card big'>
+<p>
+  &#128299;&#128117;   &#128299;&#128117;&#127995;   &#128299;&#128117;&#127998;
 
 </p>
 </div>
 
-Jessie Jenny Jodie
+<div class='card big'>
+<p>
+  &#128299;&#128117;  
+<br>
 
-What do I have in my ockte un mug Dragon Ball / I love new york Hitori desu! Tomodatcih
-Treasure chest locker key
-
-Women threaten with a gun and cut beard  &#128104;&#127995; &#128104; &#128104;&#127998; &#128117; &#128117;&#127995; &#128117;&#127998;
-
-&#128299; &#9986;&#65039; &#128142; &#128141;
+宝物は
+</p>
+</div>
 
 <div class='card big'>
-<p>&#129436; &#129492;&#127995; &#129492; &#129492;&#127999;
+<p>
+   &#128299;&#128117;&#127995;  
+<br>
+私たち
+</p>
+</div>
+
+<div class='card big'>
+<p>
+ &#128299;&#128117;&#127998;
+<br>
+
+のものだ
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#128544; &#128544;
+</p>
+</div>
+
+
+
+<div class='card big'>
+<p>
+&#128117;
+<br>
+<span class="spinned2">&#9986;</span>
+<br>
+髭は好きじゃない
+<br>
+ヒゲを切ろう
+</p>
+</div>
+
+
+
+<div class='card big'>
+<p>
+&#9203;
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+
+  &#127796;&#127796;&#127796;&#127796;
+  <br>
+  &#128299;&#128117;   &#128299;&#128117;&#127995;   &#128299;&#128117;&#127998;
+<br>  
+<br>  
+&#128564; &#128564;
+</p>
+</div>
+
+<div class='card big'>
+<p>
+  &#127796;&#127796;&#127796;&#127796;
+  <br>
+<span class="main_bg">---</span>  &#129381; <span class="main_bg">---</span> &#129381; <span class="main_bg">---</span> &#129381;
+  <br>
+&#128299;&#128565;&#8205;&#128171; &#128299;&#128565;&#8205;&#128171; &#128299;&#128565;&#8205;&#128171;
+<br>  
+<br> 
+😯 😯
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+  &#127796;&#127796;&#127796;&#127796;
+  <br>
+<span class="main_bg">---</span>  &#128053; <span class="main_bg">---</span> &#128053; <span class="main_bg">---</span> &#128053;
+  <br>
+&#128299;&#128565;&#8205;&#128171; &#128299;&#128565;&#8205;&#128171; &#128299;&#128565;&#8205;&#128171;
+<br>  
+<br> 
+😯 😯
+</p>
+</div>
+
+
+<div class='card big'>
+<p>
+  &#127796;&#127796;&#127796;&#127796;
+  <br>
+
+&#128512; 
+<br>
+<span class="onomatopea">ジャーン</span>
+<br>
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#128104; &#128104;&#127995;
+<br>
+トー ！
+</p>
+</div>
+
+<div class='card big'>
+<p>
+&#129492;&#127999; 
+ <br> 
+私の友達！
+</p>
+</div>
+
+
+
+
+
+<div class='card big'>
+<p>
+&#127916;
+</p>
+</div>
+
+
+
+<div class='card big'>
+<p>
+&#129492;&#127999;   &#128104; &#128104;&#127995;
+<br>  
+&#128117;   &#128117;&#127995;   &#128117;&#127998;
+<br>
+&#128053; &#128047; &#128114;
+</p>
+</div>
+
+
+
+<div class='card big'>
+<p>
+&#128079; &#128079;&#127995;  &#128079;&#127996;  👏🏽 &#128079;&#127998; &#128079;&#127999;
 </p>
 </div>
 
