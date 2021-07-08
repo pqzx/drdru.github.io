@@ -1,6 +1,12 @@
 ？！？！：
 、。⌈⌋ 『』
 # 
+It ddoes not scale
+
+Copy sakubi so it does not get lost
+
+Why I chose not to build a CRUD app
+
 
 Cyberpunk 
 https://codepen.io/Tibixx/pen/BORzxZ City cyberpunk
