@@ -3,20 +3,42 @@
 # 
 Introduce kudasai after jobs
 
-Re use Kaidan (stairs) / Colors
-Re use win / lose / start / wataru / Shinu with imperative
+Watashi ha pierro des
 
+
+Re use Kaidan (stairs) / Colors
+Re use win / lose / start / end / wataru / Shinu with imperative
+Noboru furiru
+
+
+I lie skying suki suki
+
+Verbe push 
+
+
+Push ladder!
+Orc pixel art
+Introduce weak in pixel art  page
+Ligne d'archer
+King drinks the potion ?
+Use verb out 
+I can see th eflag of the ennemy
+The doors are open
+Boots protect feet
+
+
+Throw etc >> boxing gloves
 
 たた 叩く >>> knock the door
 
 
-Trolls Line up
+
 
 Use north south East west
 
 
 家の地図
-The Farmer who alerts the king talks about his house
+
 
 
 Video game (let's eat pizza and drink beer while playing the game with tomodachi) visit the house (there is a dog poo inside) / visit the house of a sorceress (With lots of books) ?
@@ -46,7 +68,7 @@ Fight
 Fight with a sword
 Boxers fight with their fists
 攻撃 transitvie vs tatakai intransitive
-
+Chamboule tout avec des fantomes.
 🥅
 
 
@@ -55,7 +77,7 @@ Boxers fight with their fists
 
 🧟🧟🧟 👻👻
 japanese brand name
-Military Helmet
+
 "剣の戦い"
 
 Introduce king queen and other term + wife (son and daughter)
@@ -63,7 +85,7 @@ Introduce king queen and other term + wife (son and daughter)
 
 Quizz verb (oku osu) and introduce Verb particle adjective ( + re use the word question)
 
-NExt the elf story start with Tango : throw & wrestle 
+NExt the elf story start with Tango (vocab) : throw & wrestle 
 
 Start Something (the fight ?) ! Close the door !
 
@@ -74,23 +96,10 @@ They hear the drum so they run to the castle
 
 ange vs demon ⚜️
 
-Army of a king with pixel art soldiers
-
-Hlems deep play the drum
-
-Army blow the trumpet
-
-----
-Magicien regarde dans sa boule de crystal et says produce swords!
-I can see a fight and a victory ? Here is your ball. Where do I put it ?
-Trolls line up and army as well
-Mix this and that to make trolls
 
 
-May introduce put on fire (for candle) 
-Un paysan rentre chez lui et voit sa maison brulee avec des trolls autours : let's tell the king
-He meets a horse rider on the way : let's tell the king
----
+
+
 
 Marine from american army / star gate + half life + gazoline + explosion
 https://codepen.io/Chuloo/pen/GQBLpv alien
@@ -109,7 +118,7 @@ Decrire Aragron and legolsas and gimly and explain the king of rohan blabla
 
 All the royal vocab us introduced
 
-King gives orders during the day but his wife does by night play the piano play this
+
 
 Rooms of th ecastle are introduced. 
 
@@ -118,11 +127,8 @@ After the war the king and the queen have a baby
 
 Class room oshieru Know learn
 
-Esprit de XXX MAmorimono mamori no ubiwa
 
-Ring
 
-HElmet plae Glasses
 
 😈 
  こあくま 小悪魔 -- > little devil / imp
@@ -134,32 +140,8 @@ Copy sakubi so it does not get lost
 Why I chose not to build a CRUD app
 
 
-# bow and arrow
-
-💋
 
 
-👨‍🌾 
-🦴 to make the trolls. MAybe teeth as awell 
-💀 
-🙇‍♂️ 🧎‍♂️
-Put on the arrow ?
-Cut herbs > Mix herbs together with leaves > shoot arrow > fall asleep or put under a tree
-💤
-🦆 🦆 🦆  🕊️ 🕊️🕊️
-🐗 🐺
-🧭
-Jump from rock to rock
-🕳️ # hole
-🤺 fencing
-🧗 climbing
-🧝
-🪜 ladder
-🪨 rock
-🐾 paws 👣
-🍄 mushroom 
-Grotte ?
-🧟
 
 https://codepen.io/ricardoolivaalonso/pen/pozXrMZ
 
@@ -205,35 +187,18 @@ Ordres donnes au chien. Where is Lucy?
 
 A piano and and painting of a fukuro in CYOA 
 
-RE inrtoduce East west with juju and her friend and in Helms gouffre.
 
-Draw a pseudo gouffre de elm battle :
 
-🧟 Zombie for Troll : attack the orcs ! Protect the castle. 
-Kill them. Ils attaquent avec de la magie de feu! Un dragon ! 
-Gouffre de helm re use twc background color
-Au pied de la montagne there is a castle.
-Protect the castle!
-Orcs hit their shields with their sword
 
-Pixel art : draw helmet/ armor pixel art Add armor helmet to forgeron + military helemt
+
 
 https://codepen.io/shadeed/pen/QwvmXo --- >emoji user avatar
-
-
-
 
 
 https://ironchestgames.itch.io/rpg-items-for-pico-8
 
 
 https://codepen.io/juliepark/pen/ZxQLeN -- marvel icons
-
-
-
-Page JRPG characters : attaque defense magic points blabla
-Equipment / helmmet body parts protects
-Equipment page now or later ?
 
 
 Arrow Bow target I hit the 100! I can hit someone frmo 100m. Use Legolas and a LoR scene ??
@@ -263,9 +228,6 @@ https://codepen.io/slinto/pen/mBCFx css night sky
 
 
 CYOA like nibel manor
-
-
-
 
 
 Poison draw a flask with skull on it
@@ -381,16 +343,7 @@ Nporman date and ferrari date
 Family
 
 
-
-
-
-
-
-
-
-
 Time + Ano cono, ... Plu splanete plus James Cameron + Dragon Ball sort of Encyclopedia mode Next part
-
 
 
 
@@ -444,7 +397,7 @@ Ano EmojiHA nani ?
 ☽🔮☾🕯🃏🌕🕸✨🍃🍄🧿🌙✩ 🪄📚 + pumpkin Halloween https://emojicombos.com/magic 
 
 
-🥳🙌🎂 🍰🎈🎉 🎁   Birthday
+🥳🙌🎂 🍰🎈🎉🎁   Birthday
 🧑‍🎓💐🍾 🏫🎉 🎓 📚📜  Graduation
 
 
