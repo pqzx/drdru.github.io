@@ -18,7 +18,7 @@
   padding: 0;
   box-sizing: border-box;
   position: absolute;
-  top: 2100px;
+  top: 2200px;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -28,6 +28,59 @@
   left: 50%;
   margin: 0 0 0 -750px;
 }
+
+
+
+.picture_div2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: absolute;
+  top: 2900px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    position: absolute;
+  
+  left: 50%;
+  margin: 0 0 0 -130px;
+}
+
+
+.picture_div3 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: absolute;
+  top: 3500px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    position: absolute;
+  
+  left: 50%;
+  margin: 0 0 0 -450px;
+}
+
+
+.picture_div4 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: absolute;
+  top: 4200px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    position: absolute;
+  
+  left: 50%;
+  margin: 0 0 0 -800px;
+}
+
 /*.cabin-inside-area {
 position: absolute;
 pointer-events: none;        
