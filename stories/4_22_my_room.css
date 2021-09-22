@@ -36,7 +36,7 @@
   padding: 0;
   box-sizing: border-box;
   position: absolute;
-  top: 2900px;
+  
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -53,7 +53,7 @@
   padding: 0;
   box-sizing: border-box;
   position: absolute;
-  top: 3500px;
+  
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -70,7 +70,7 @@
   padding: 0;
   box-sizing: border-box;
   position: absolute;
-  top: 4200px;
+ 
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -113,9 +113,18 @@ pointer-events: none;
   z-index: -100;
 }
 /* Bed CSS */
+
+.bed_top {
+
+
+  top: 120px;
+
+}
+
+
 .bed {
   position: absolute;
-  top: 120px;
+  
   left: 20px;
   height: 120px;
   width: 220px;
@@ -165,10 +174,15 @@ pointer-events: none;
 
 /* Fireplace CSS */
 
+.fireplace_top {
+
+  top: 80px;
+}
+
 .fireplace {
   position: absolute;
   left: 630px;
-  top: 80px;
+  
   width: 235px;
   height: 180px;
   background-color: rgb(156, 116, 116);
@@ -208,11 +222,18 @@ pointer-events: none;
 
 /* Rug */
 
+
+.rug_top {
+
+  top: 300px;
+
+}
+
 .rug {
   position: absolute;
   width: 351px;
   height: 300px;
-  top: 300px;
+  
   left: 260px;
   border-radius: 2% 29% 0% 30% / 39% 2% 11% 0%;
   background-color: #6d695c;
@@ -250,9 +271,16 @@ pointer-events: none;
 }
 
 /* Desk */
+
+.desk_top{
+
+  top: 280px;
+
+}
+
 .desk {
   position: absolute;
-  top: 280px;
+  
   left: 690px;
   width: 200px;
   height: 230px;
