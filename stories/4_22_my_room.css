@@ -13,23 +13,30 @@
   margin: 0 0 0 -0px;
 }
 
-.picture_div1 {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  position: absolute;
-  top: 2200px;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-    position: absolute;
+.fireplace_centered {
   
   left: 50%;
-  margin: 0 0 0 -750px;
+  margin: 0 0 0 200px;
+}
+
+.bed_centered {
+  
+  left: 50%;
+  margin: 0 0 0 820px;
+}
+
+.rug_centered {
+  
+  left: 50%;
+  margin: 0 0 0 520px;
 }
 
 
+.desk_centered {
+  
+  left: 50%;
+  margin: 0 0 0 160px;
+}
 
 .picture_div2 {
   margin: 0;
@@ -311,7 +318,7 @@ pointer-events: none;
 
 /* Book */
 
-.book {
+.book2 {
   position: absolute;
   top: 30px;
   left: 50px;
@@ -324,12 +331,12 @@ pointer-events: none;
   /*z-index: 300;*/
   transition: 0.4s ease;
 }
-.book:hover {
+.book2:hover {
   transform: scale(1.5);
   box-shadow: 0 5px 20px 5px rgba(0, 255, 255, 0.7500);
 }
 
-.book::before {
+.book2::before {
   position: absolute;
   top: 20px;
   left: 9px;
@@ -340,7 +347,7 @@ pointer-events: none;
   font-weight: 100;
   cursor: pointer;
 }
-.book::after {
+.book2::after {
   position: absolute;
   content: "";
   background: white;
