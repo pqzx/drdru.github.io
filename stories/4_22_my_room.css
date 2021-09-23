@@ -16,26 +16,26 @@
 .fireplace_centered {
   
   left: 50%;
-  margin: 0 0 0 200px;
+  margin: 0 0 0 -120px;
 }
 
 .bed_centered {
   
   left: 50%;
-  margin: 0 0 0 820px;
+  margin: 0 0 0 -110px;
 }
 
 .rug_centered {
   
   left: 50%;
-  margin: 0 0 0 520px;
+  margin: 0 0 0 -180px;
 }
 
 
 .desk_centered {
   
   left: 50%;
-  margin: 0 0 0 160px;
+  margin: 0 0 0 -110px;
 }
 
 .picture_div2 {
@@ -125,14 +125,14 @@ pointer-events: none;
 
 
   top: 120px;
-
+left: 20px;
 }
 
 
 .bed {
   position: absolute;
   
-  left: 20px;
+  
   height: 120px;
   width: 220px;
   background: rgb(97, 42, 20);
@@ -184,11 +184,12 @@ pointer-events: none;
 .fireplace_top {
 
   top: 80px;
+  left: 630px;
 }
 
 .fireplace {
   position: absolute;
-  left: 630px;
+  
   
   width: 235px;
   height: 180px;
@@ -233,7 +234,7 @@ pointer-events: none;
 .rug_top {
 
   top: 300px;
-
+left: 260px;
 }
 
 .rug {
@@ -241,7 +242,7 @@ pointer-events: none;
   width: 351px;
   height: 300px;
   
-  left: 260px;
+  
   border-radius: 2% 29% 0% 30% / 39% 2% 11% 0%;
   background-color: #6d695c;
   background-image: repeating-linear-gradient(
@@ -285,10 +286,16 @@ pointer-events: none;
 
 }
 
+
+.desk_position {
+
+  left: 690px;
+}
+
 .desk {
   position: absolute;
   
-  left: 690px;
+  
   width: 200px;
   height: 230px;
   border-radius: 3px;
