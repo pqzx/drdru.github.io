@@ -703,6 +703,7 @@
   height: 70px;
   width: 40px;
   border-radius: 10px 10px 2px 2px;
+
 }
 .bottle:after {
   right: 12px;
@@ -723,6 +724,7 @@
   height: 25px;
   left: 10px;
   bottom: 20px;
+  
 }
 
 .food-ctn {
