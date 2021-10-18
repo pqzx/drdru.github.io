@@ -5,10 +5,17 @@
 ですか
 言います
 あります 
-Menzo et Hector
+
+Add this where appropriate
+<div class="card big_card">
+<p>
+<ruby>置<rt>お</rt></ruby>く + <ruby>中<rt>なか</rt></ruby> = <ruby>入<rt>い</rt><ruby>れる
+</p>
+</div>
+
+
 The fastest animal strongest tallest.
 
-Change Kim's face  in first part
 Add links to arcs in stories and maybe open book emoji at the top
 
 
