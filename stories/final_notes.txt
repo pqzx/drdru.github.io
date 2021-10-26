@@ -6,6 +6,30 @@
 言います
 あります 
 
+
+
+
+This (with finger emoji) is a url bar
+
+検索をするためには、キーワードを入力して検索ボタンを押します。
+
+URLバーにURLを入力すると
+私は「服を買いたい」と入力します。
+First then finally
+
+
+それは、Google、Bing、Yandex、Duckduckgoなどの検索エンジンです。
+
+
+キーワードや質問を入力します。
+キーボードで
+青」や「赤」などのキーワードや、「どこに住んでいるか」などの質問を入力します。
+これがそのロゴです。これはアヒルです
+I type in a url such as 'drdru.github.io' or 'google.com'.
+
+キーボードで文字を入力する 
+
+
 Add this where appropriate
 <div class="card big_card">
 <p>
