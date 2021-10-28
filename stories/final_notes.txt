@@ -6,14 +6,15 @@
 言います
 あります 
 
-
-You browse the internet using a browser such as 
+Add lang Jap to html
 Long phrase a la I love new york
 LE loup mange l'agneau
 
 This (with finger emoji) is a url bar
 
-検索をするためには、キーワードを入力して検索ボタンを押します。
+検索をするためには、
+
+キーワードを入力して検索ボタンを押します。
 
 URLバーにURLを入力すると
 私は「服を買いたい」と入力します。
