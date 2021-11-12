@@ -10,25 +10,14 @@
 そうですよ
 
 
-Name of the kingdom
-
 <ruby>違<rt>ちが</rt></ruby>うよ
 Romance could be an illustrated BD (Kangae use BD bubbles)
 
 
 Quizz mas form 
-Add numbers to Spain Abdel Yama mo aru ??? Add numbers within circles to top5
-Barcelona ni ikitai deska ?
 
-Tic tac to hai > sodayo
-
-
-
-Add lang Jap to html
 Long phrase a la I love new york
 LE loup mange l'agneau
-
-This (with finger emoji) is a url bar
 
 検索をするためには、
 
@@ -62,11 +51,8 @@ Add this where appropriate
 </div>
 
 
-
-
 Online dictionary
 Eigo deha to iu imi desu
-
 
 Search result page of Google is interesting avec la wikipedia box on the right
 + top menu : news videos ...
@@ -86,8 +72,10 @@ On fashion Japanese sites a lot of words are written in Katakana
 
 
 
-
-
+ケシダさん keshida
+ジェネロ Genero
+クラビツ Kravitsu
+アレハンドロ Alejandro
 
 From DDG search to final payment. >> 鴨鴨5 Duck Duck Go
 Then detail the steps and the pages
@@ -117,19 +105,10 @@ Maybe one page with JS for hover
 
 
 
-Baraton 
-Kaditsu ?
-Kravitsu
-GogOtsu
 
-Remus 
-Ermina
-Alejandro
 
 
 二-->三-->王-->全--> 金-->✗--> 又-->文-->六-->父-->交-->亥-->人-->大-->天-->矢-->医-->口-->日-->旧-->工-->左-->右-->石-->不-->卜-->上-->止-->正-->疋-->走-->赴-->占-->古-->早-->卓-->下-->丁-->了-->予-->矛-->才-->寸 -->勾-->幻-->刀-->力-->乃-->几-->冗-->巾-->中-->虫-->台-->允-->充-->玄-->糸-->系-->千-->舌-->乱-->己-->巳-->円-->内-->肉--->月-->用-->角-->久 -->入-->八-->穴-->突-->夭->呑-->喬-->尚-->当-->尹-->君-->倉-->蒼-->茶-->木-->林-->森--->杏-->呆-->束-->史-->丈-->曳-->更-->田-->苗-->曲-->典-->共-->昔-->曹-->甲-->里-->量-->亘-->車-->軋-->匕-->匂-->包-->胞-->肥-->色-->夕-->多-->名-->各-->咎-->囚-->因-->夫-->失-->牛-->生-->表
-
-
 
 
 
@@ -250,9 +229,6 @@ Les villes des clubs de foot sont.
 Marathon history 
 Train to fall au foot
 
-
-
-
 Time
 
 Seasons ?
@@ -264,13 +240,9 @@ Description avec les sports et les villes
 
 Marathon histoire.
 
-
-
 Space Jam Jordan Baseabll Golf hand from the hall
 
 Looney tunes basket ball game https://codepen.io/valentin/pen/NaJMmG Sapce jam logo
-
-
 
 Sport > Archer Throw > FEncing > Rules of the games > FIFA Wrestling fght. PRactice orders
 Garaigo thing ?
@@ -310,7 +282,6 @@ Give and recive potentially
 
 私は茶髪である。
 
-Men Women Kids
 
 Influencer introduction
 
@@ -347,6 +318,7 @@ a lot たくさん
 
 The old man grows vegetable
 A rabbit keeps eating his vegies.
+The man eats the rabbit
 
 🐇🐇👣👴🏡 🐇🐇👀👴🥕🍅 🐇 😍🍽🥕🍅 👴👀😤☠️🐇 🐇😵-👵🍲
 
@@ -366,7 +338,6 @@ A rabbit keeps eating his vegies.
 👦👧🕺💃
 ⏱👦👧➡️👨‍🎓👩‍🎓
 ⏱👨‍🎓👩‍🎓➡️👨👩
-
 
 
 Young
@@ -553,7 +524,6 @@ Jars
 魔法の動物を作る
 魔法で動物を作る。
 
-Juju goes ro the office finds the right book and then makes the potion in the kitchen, goes downstairs and throws it on the vampire
 
 
 https://codepen.io/agathaco/pen/bRxYxL kitchen
@@ -631,13 +601,6 @@ Boots protect feet
 
 Throw etc >> boxing gloves
 
-たた 叩く >>> knock the door
-
-
-
-
-Use north south East west
-
 
 Video game (let's eat pizza and drink beer while playing the game with tomodachi) visit the house (there is a dog poo inside) / visit the house of a sorceress (With lots of books) ?
 
@@ -679,18 +642,15 @@ Introduce king queen and other term + wife (son and daughter)
 
 Quizz verb (oku osu) and introduce Verb particle adjective ( + re use the word question)
 
-NExt the elf story start with Tango (vocab) : throw & wrestle 
 
 Start Something (the fight ?) ! Close the door !
 
 
-They hear the drum so they run to the castle
 
-🤾 Throw the ball  🤼‍♂️ 🥊  &#129307;
+
+🤼‍♂️ 🥊  &#129307;
 
 ange vs demon ⚜️
-
-
 
 
 
@@ -763,7 +723,7 @@ Heros Karacta (character) 😈 with the dragon  しゅじんこう 主人公 > m
 
 In the fight they are joined by the archer who comes out of some smoke. He is a friend
 
-Ordres donnes au chien. Where is Lucy?
+Ordres donnes au chien. 
 
 A piano and and painting of a fukuro in CYOA 
 
@@ -869,7 +829,6 @@ Doressu Shatsu
 New dress ?
 
 Online shop ?
-
 
 Yes !
 
