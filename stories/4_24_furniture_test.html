@@ -46,7 +46,17 @@ a {
 
 	position: absolute;
 	left: 50%;
-	margin: 0 0 0 -180px;
+	margin: 0 0 0 50px;
+
+}
+
+
+.rug_centered {
+
+
+	position: absolute;
+	left: 50%;
+	margin: 0 0 0 -150px;
 
 }
 
@@ -59,11 +69,128 @@ a {
 
 }
 
+.shelf_centered {
+
+	position: absolute;
+	left: 50%;
+	margin: 0 0 0 80px;
+
+}
+
+.box_centered {
+
+	position: absolute;
+	left: 50%;
+	margin: 0 0 0 -70px;
+
+}
+
+
+
+.box_centered2 {
+
+	position: absolute;
+	left: 50%;
+	margin: 0 0 0 -200px;
+
+}
+
 
 .book_twittemoji .emoji {
     height: 60px;
     width: 60px;
 }
+
+
+.rotated {
+transform: rotateY(180deg);
+      }
+
+
+
+.adjust-line-height {
+  line-height: 0em;
+}
+
+
+.chest {
+  --gold: brown;
+  --beige: #f4e2c8;
+  --black: #101010;
+  --blackLight: #707696;
+  --blackAlpha: rgba(0, 0, 0, 0.2);
+
+  position: relative;
+  width: 14rem;
+  height: 10rem;
+  border: solid var(--gold);
+  border-width: 0 1rem;
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+    var(--blackLight) 0%,
+    var(--blackLight) 30%,
+    var(--gold) 30%,
+    var(--gold) 40%,
+    var(--blackLight) 40%,
+    var(--blackLight) 100%
+  );
+  box-shadow: 0.25rem 0.25rem var(--blackAlpha);
+}
+/*shadow*/
+.chest::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -1rem;
+  bottom: 0;
+  left: 50%;
+  border-radius: 0 0.25rem 0.25rem 0;
+  background-color: var(--blackAlpha);
+}
+.chest_keyholeBG {
+  position: absolute;
+  top: 40%;
+  width: 4rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--gold);
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+}
+
+
+.chest_keyhole {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chest_keyhole::before {
+  content: "";
+  display: block;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background-color: var(--black);
+}
+.chest_keyhole::after {
+  content: "";
+  display: block;
+  width: 0.25rem;
+  height: 0.75rem;
+  margin-top: -0.25rem;
+  background-color: var(--black);
+}
+
+.test {   
+
+      display: flex;
+        width: 100%;
+        justify-content: center;
+ }
 
 </style>
 
@@ -75,6 +202,16 @@ a {
 
 <div class="big card main_colour"> 
 <p>
+<span class="big_twittemoji">🏚️</span>
+</p>
+</div>
+
+
+
+<div class="big card main_colour"> 
+<p>
+<span class="big_twittemoji">🚪</span>
+<br>	
 🧙‍♀️ 
 <br>
 女王
@@ -83,9 +220,19 @@ a {
 
 
 
+
+
+
+
+
+
 <div class="big card main_colour"> 
 <p>
-🛏️
+🖼
+<br>
+🛏 <span class="black">----------</span> 🚪
+<br>
+<span class="black">----------</span> 🧙‍♀️ 
 </p>
 </div>
 
@@ -98,7 +245,7 @@ a {
 <br>
 🧙‍♀️
 <br>
-<span class="brown_background brown mid_size" style="border-bottom: solid brown 10px;">- -  <span class="book_twittemoji">📖</span>   🌿 🍄 🥛 - -  </span> 
+<span class="brown_background brown mid_size" style="border-bottom: solid brown 10px;">- -  <span class="book_twittemoji">📖</span>   🌿 🍄 ⚖️ - -  </span> 
 </p>
 </div>
 
@@ -118,7 +265,7 @@ a {
 </div>
 
 
-
+<div class="bookshelf bookshelf_centered">-</div>
 
 <div class="big card main_colour"> 
 <p>
@@ -135,47 +282,134 @@ a {
 
 dragno mmilk
 
-🧪  ⚗️  🌡️ 🔪 ⌛ 🕯️ ⚖️ 🪟 window  🪞 mirror
+🧪  ⚗️  🌡️ 🔪 ⌛ 🕯️ ⚖️ 🪟 window  🪞 mirror 🪑
 </p>
 </div>
 
 
-<div class="bookshelf bookshelf_centered">-</div> <div class="fireplace fireplace_centered">-</div>
+<div class=" card main_colour"> 
+<span class="black">---- </span><span class=" fireplace_centered black fireplace big"> - </span>
+<br>
+
+
+<br>
+<br>
+<span class="black"><span class="chair big">-</span> ------------<span class="table big"> </span>--------------------- </span> 
 <br>
 <br>
 <br>
 <br>
 <br>
 <br>
+
+<br>
+<div class="red_background red	rug_centered" style="width: 400px;height: 	100px;border: solid brown 5px;">	🧙‍♀️--</div>
+</div>	
+
 <br>
 <br>
-<span class="chair big">-</span> --------------------------<span class="table big"> </span>--------------------- <span class="chair big">-</span>
-<div class="card black">-	</div>
-<div class="card big">女王 </div>
-
-<div class="table">-</div>
-<div class="card black">-	</div>
-<div class="card big">女王 </div>
+<br>
+<br>
+<br>
+<br>
 
 
 
-<div class="card black">-	</div>
-<div class="card big">女王 </div>
+<div class=" card main_colour"> 
+<span class="black">---- </span><span class=" fireplace_centered black fireplace big"> - </span>
+<br>
 
 
-<div class="box">-</div>
-<div class="card black">-	</div>
-<div class="card big">女王 </div>
+<br>
+<br>
+<span class="black"><span class="chair big">-</span> ------------<span class="table big"> </span>--------------------- </span> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<span class="big_twittemoji">🕳️</span>	
+<br>
+🧙‍♀️
+</div>	
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class=" card main_colour  "> 
+<p>
+<span class="black">--------</span>  <span class="black">-----</span> 🪜  <span class="black">-----</span>🕸️
+<br>
+<span class="black">---------</span>🕷 <span class="black">--</span> 🪜  <span class="black">--</span>  🕸️🕸️
+<br>
+🧙‍♀️
+<br>
+🗿  🗿  🗿  🪜  🗿  🗿  🗿
+<br>
+<br>
+<br>
+
+</p>
+</div>
+
+<div class=" card main_colour  big"> 
+<p>
+
+<div class="adjust-line-height" style="border-top: solid grey 20px; padding-top:  20px; width: 600px; border-bottom: solid grey 20px; padding-bottom:  20px;  margin: auto; margin-bottom: 10px;">
+🦇 <span class="black">⛓️</span> 🦇 <span class="black">⛓️</span> 🦇 <span class="black">⛓️</span> 🦇
+ 
+<br>
+<span class="black">--</span> <span class="black">⛓</span> <span class="black">---</span> <span class="black">⛓️</span> <span class="black">---</span> <span class="black">⛓️</span> <span class="black">--</span> 
+</div>	
+
+<span class="black">--🧙‍♀️--------------</span><span class="big_twittemoji">⚰️</span> 
+</p>
+</div>
 
 
-<div class="bookshelf">-</div>
-<div class="card black">-	</div>
-<div class="card big">女王 </div>
 
 
-<div class="shelf">-</div>
-<div class="card black">-	</div>
-<div class="card big">女王 </div>
+
+<div class=" card main_colour "> 
+<p>
+<div class="shelf shelf_centered black">-</div>
+<br>
+<br>🪝 <span class="black">-------</span> 🪝<span class="black">-*---------------</span> <br>
+<div class="box box_centered2 black">-</div><div class="box box_centered black">-</div>
+	<br><span class="black">-------</span>🧙‍♀️<span class="black">------------------------------------------------------</span>⚱️ <br>
+<span class="black">-----------------------------------------------------------------------------</span>⚱️
+		<br><br>
+<div class="card black"><span class="spinned">🐀</span><span class="black">----</span> 🦂  </div>
+</p>
+</div>
+
+
+
+
+	
+
+</div>
+
+<div class="card main_colour">
+	<span class="big_twittemoji">🧙‍♀️</span>
+<div class="test ">
+
+<div class="chest">
+  <div class="chest_keyholeBG">
+    <div class="">🔒</div>
+  </div>
+</div>
+
+</div>
+</div>
+
 
 
 <div class="big last_div">
