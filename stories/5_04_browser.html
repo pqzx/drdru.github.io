@@ -94,11 +94,11 @@ padding-left	: 10px;
 
 .computer_screen {
 
-	width: 500px;
+	width: 540px;
 	background-color: white;
   
 margin: auto;
-   height: 325px;
+   height: 335px;
    border: solid black 20px;
    border-radius: 10px;
 
@@ -108,23 +108,30 @@ margin: auto;
 .taskbar {
 
 
- background-color: grey;
+ background-color: #8294a5;
  height: 20px;
  padding-bottom: 3px;
-
+ padding-right: 5px;
 }
 
 .desktop {
 	padding-top: 10px;
 padding-left:  20px;
 padding-right: 20px;
-height: 217px;
-
+height: 227px;
+background-color: lightblue;
+font-size: 80%;
 }
 
 .icon_twittemoji15 .emoji {
     height: 16px;
     width: 16px;
+}
+
+
+.icon_twittemoji30 .emoji {
+    height: 30px;
+    width: 30px;
 }
 
 
@@ -136,13 +143,13 @@ height: 217px;
 
 .taskbar_col {
 
-	color: grey;
+	color: #8294a5;
 }
 
 .window_bar {
-
-
- background-color: grey;
+padding-right: 10px;
+ padding-left: 10px;
+ background-color: #a6c3dd;
  height: 25px;
 
 }
@@ -164,6 +171,7 @@ height: 217px;
 
 .url_bar2 {
    height:inherit;
+   font-size: 80%;
    height: 13px;
    width: 	300px;
    background-color: white;
@@ -186,6 +194,77 @@ height: 217px;
 	padding-left: 	10px;
 }
 
+.browser_tab{
+
+   float: 	left;
+border-right: solid	1px	grey;
+border-top: solid	1px	grey;
+border-bottom: solid	1px	grey;
+width: 	100px;
+height: 23px;
+border-radius: 5px 5px 0px 0px ;
+padding-right: 3px;
+padding-left: 5px;
+}
+
+
+.new_tab {
+
+width: 	15px;
+text-align: center;
+}
+
+.open_tab{
+
+   background-color: #b5b6b7;
+
+}
+
+.cross {
+
+float: right;
+font-size: 80%;
+
+}
+
+
+.logo{
+
+	text-align: center;
+    background-color: white;
+	border:2px; 
+	border-style:solid; 
+	padding: 5px;
+	border-radius: 7px;
+	font-weight: bold;
+
+}
+
+#start_link {
+
+	font-size: 80%;
+	text-align: center;
+    background-color: white;
+	border:2px; 
+	border-style:solid; 
+	padding: 5px 10px 5px 10px;
+	border-radius: 7px;
+	font-weight: bold;
+	
+}
+
+.light_blue {
+
+ color: lightblue;
+
+}
+
+.right_align{
+
+  float: right;
+
+}
+
 </style>
 
 </head>
@@ -196,8 +275,15 @@ height: 217px;
 
 
 <div class="computer_screen">
-	<div class="window_bar"> <span class="taskbar_col">---******------------------------------------------------------</span> <span class="white">_ 口  X</span></div>
-	<div class="tab_bar"></div>
+	<div class="window_bar"><span class="icon_twittemoji15">🦊</span> ファイアフォックス  <div class=" right_align">_ 口  X</div></div>
+	<div class="tab_bar">
+		  <div class="browser_tab">カモカモ5<div class="cross">X</div></div> 
+		  <div class="browser_tab open_tab"> drdru <div class="cross">X</div></div>
+		  
+		  <div class="browser_tab new_tab">+</div>
+
+
+	</div>
 	<div class="url_bar"><div class="url_bar1"><span class="icon_twittemoji15">⭠</span>
 		<span class="icon_twittemoji15">⭢</span>
 		<span class="icon_twittemoji15">↻</span> 
@@ -205,34 +291,38 @@ height: 217px;
 		
 		
 		</div> 
-		<div class="url_bar2"><span class="icon_twittemoji15">🔒</span>| https://kamokamogo!jp/?q=服を買いたい	</div> 
+		<div class="url_bar2"><span class="icon_twittemoji15">🔒</span>| https://drdru.github.io/	</div> 
 		 <div class="url_bar3"><span class="icon_twittemoji15">⭐</span> <span class="icon_twittemoji15">⤓</span></div> 
-
-
-
-
-
-
-
-
-
-
-
-
-
 	</div>
 
 <div class="desktop">
-	
+<span class="light_blue">---</span> <span class="logo">DrDru's Lab</span></p>
 
+<span class="light_blue">------ -</span><span class="icon_twittemoji30">🤓</span> 
 <br>
+<span class="light_blue">-----</span>  ようこそ！	
+
+<ul>
+<li><a href="./stories.html">Stories</a></li>
+<li><a href="./lab.html">Misc</a></li>
+<!--<li><a href="./misc.html">Practice</a></li>
+ <li><a href="./links.html">Contact</a></li> -->
+<li><a href="./about.html">About</a></li>
+
+</ul>
+
+
+<span class="light_blue">----</span> <a id="start_link" href="./stories/intro.html">Start here</a>
+
 
 
 </div>
 
-<div class="taskbar"> | スタート | <span class="icon_twittemoji15">🗒️</span> <span class="icon_twittemoji15">✉</span>  
-
-<span class="icon_twittemoji15">📁</span> <span class="taskbar_col">-----------------------------------<span class="icon_twittemoji15">🔊 🔋</span></span> | 21:18
+<div class="taskbar"> | スタート |<span class="taskbar_col">-</span><span class="icon_twittemoji15">🗒️</span> 
+<span class="taskbar_col">-</span>
+	<span class="icon_twittemoji15">✉</span>  
+<span class="taskbar_col">-</span>
+<span class="icon_twittemoji15">📁</span> <div class=" right_align"><span class="icon_twittemoji15">🔊 🔋</span></span> | 21:18</div>
 </div>
 </div>
 
