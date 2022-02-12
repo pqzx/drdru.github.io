@@ -1,0 +1,206 @@
+body { 
+
+         background-color:  red;
+       
+ }
+
+
+.a2 {
+  
+  color: white;
+  text-decoration: none;
+
+}
+
+.a3 {
+  
+  color: white;
+
+}
+
+.main {
+     
+  margin: 0 auto;
+  font-family: morris_romanbold;
+  width: 790px;
+
+}
+
+@media (max-width: 800px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+     
+
+  .main { 
+
+    width: min(380px, 100%);
+
+   }
+
+   .top {
+
+width:  min(380px, 100%);
+
+}
+.bottom {
+      
+
+width:  min(380px, 100%);
+
+}
+.page {
+      
+
+width:  min(380px, 100%);
+float: none;
+}
+}
+
+
+
+
+.top {
+
+  font-family: morris_romanbold;
+  background-image: linear-gradient(to bottom, #0b7c0d 0%,#0b7c0d 100%);
+  border:5px solid white;
+  border-radius: 25px;
+  color: white;
+  font-size: 150%;
+  margin-bottom: 4px;
+  width: 100%;
+
+}
+
+
+
+.bottom {
+      
+     float: left;
+     border: 5px solid white;
+background-color: yellow;
+
+     border-radius: 25px;
+     color: white;
+     font-size: 150%;
+     margin-bottom: 30px;
+     font-family: morris_romanbold;
+     width: 100%;
+
+
+}
+
+
+
+
+.blabla {
+     
+     padding: 10%;
+  font-family: "morris_romanbold", "Trebuchet MS"; 
+  font-size: 120%;
+
+}
+
+
+.story {
+     
+  font-family: "Trebuchet MS"; 
+ 
+  color: red;
+  padding: 10%;
+  font-size: 120%;
+
+}
+
+
+.next {
+
+     text-align: center;
+     font-weight: bold;
+
+
+}
+
+
+.page {
+
+    color:  white;
+     float: left;
+     border: 5px solid white;
+     width: 380px;
+     height: 640px;
+     background-color: blue;
+     border-radius: 25px;
+     margin-bottom: 10px;
+
+}
+
+
+.left_page {
+
+   margin-right: 10px;
+
+}
+
+.right_page {
+
+   margin-left: 0px;
+
+}
+
+
+.dialogue_box {
+
+  background-color: blue;
+  color: white;
+  padding: 00px 0px;
+ 
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */
+
+}
+
+
+
+.dialogue {
+
+  font-size: 120%;
+
+  font-family: "Trebuchet MS";
+  
+
+}
+
+
+.face {
+
+  width: 60px;
+  height: 60px;
+
+}
+
+
+.story_top {
+
+
+     text-align: center;
+     padding-top: 5%
+
+}
+
+.character  {
+    height: 90px;
+    width: 60px;
+}
+
+.aaa {
+
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  height: 300px;
+
+}
+
+.small_character  {
+    height: 80px;
+    width: 63px;
+}
