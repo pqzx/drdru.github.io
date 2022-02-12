@@ -1,6 +1,13 @@
 body { 
 
-         background-color:  red;
+         background-color: #04042b;
+background-image:
+
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
        
  }
 
@@ -12,11 +19,6 @@ body {
 
 }
 
-.a3 {
-  
-  color: white;
-
-}
 
 .main {
      
@@ -61,7 +63,7 @@ float: none;
 .top {
 
   font-family: morris_romanbold;
-  background-image: linear-gradient(to bottom, #0b7c0d 0%,#0b7c0d 100%);
+  background-color: blue;
   border:5px solid white;
   border-radius: 25px;
   color: white;
@@ -77,7 +79,7 @@ float: none;
       
      float: left;
      border: 5px solid white;
-background-color: yellow;
+background-color: blue;
 
      border-radius: 25px;
      color: white;
@@ -92,20 +94,13 @@ background-color: yellow;
 
 
 
-.blabla {
-     
-     padding: 10%;
-  font-family: "morris_romanbold", "Trebuchet MS"; 
-  font-size: 120%;
-
-}
 
 
 .story {
      
   font-family: "Trebuchet MS"; 
  
-  color: red;
+  color: blue;
   padding: 10%;
   font-size: 120%;
 
@@ -148,35 +143,17 @@ background-color: yellow;
 }
 
 
-.dialogue_box {
-
-  background-color: blue;
-  color: white;
-  padding: 00px 0px;
- 
-  overflow-x: hidden; /* Hide horizontal scrollbar */
-  overflow-y: scroll; /* Add vertical scrollbar */
-
-}
 
 
-
+/*
 .dialogue {
 
-  font-size: 120%;
-
-  font-family: "Trebuchet MS";
+  overflow-x: hidden; /* Hide horizontal scrollbar 
+  overflow-y: scroll; /* Add vertical scrollbar 
   
 
-}
+}*/
 
-
-.face {
-
-  width: 60px;
-  height: 60px;
-
-}
 
 
 .story_top {
@@ -187,11 +164,6 @@ background-color: yellow;
 
 }
 
-.character  {
-    height: 90px;
-    width: 60px;
-}
-
 .aaa {
 
   border-radius: 20px 20px 0px 0px;
@@ -200,7 +172,34 @@ background-color: yellow;
 
 }
 
-.small_character  {
-    height: 80px;
-    width: 63px;
+
+
+.dialogue_container {
+    
+
+  width: 100%;
+ 
+  float: left;  
+  display: flex; 
+  margin-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 12px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+
+}
+
+.dialogue {
+
+    display: flex;
+    float: left;
+    width: 100%;
+
+
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  font-family: "Trebuchet MS";
+  margin-bottom: 10px;
+
 }
