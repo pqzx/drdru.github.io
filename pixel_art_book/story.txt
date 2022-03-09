@@ -68,13 +68,29 @@ Hes not far on the way but no one can approach him
 
 He's been bothering people in the village for a while, stealing thing etc
 
+
+6 -- 
+
+They re in their room
+
+Description
+
+A traveller approaches
+
+Talk
+
+Like we were told it must be Gogotz
+
+A voice : hey !
+
+
 6 -- 
 
 They leave the inn
 
 Description
 
-A traveller approaches
+A the magic shop guy approaches
 
 Talk
 
