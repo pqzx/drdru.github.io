@@ -125,11 +125,7 @@ background-color: blue;
     color:  white;
      float: left;
      border: 5px solid white;
-    
-width: 98%;
-margin: 1px; 
-box-sizing: border-box;
-
+     width: 380px;
      height: 640px;
      background-color: blue;
      border-radius: 25px;
