@@ -126,10 +126,10 @@ background-color: blue;
      float: left;
      border: 5px solid white;
     
-width: 90%;
-margin: 0 5% 10px; 
+width: 98%;
+margin: 1px; 
 box-sizing: border-box;
-    
+
      height: 640px;
      background-color: blue;
      border-radius: 25px;
