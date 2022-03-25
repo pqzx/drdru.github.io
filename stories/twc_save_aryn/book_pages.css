@@ -31,15 +31,16 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 @media (max-width: 800px) {
   /* CSS that should be displayed if width is equal to or less than 800px goes here */
     
-
- body{
+html,body {min-width:430px;}.
+ /*body{
 
     width: 430px;
- }   
+ } */  
 
   .main { 
 
     width: min(380px, 95%);
+    float: left;
 
    }
 
