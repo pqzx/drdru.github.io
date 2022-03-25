@@ -33,10 +33,10 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
     
 
 
-html,body {min-width:430px;}
+html,body {min-width:390px;}
 
 
-@viewport { width: 430px; }
+
 
  body{
  box-sizing: border-box;
