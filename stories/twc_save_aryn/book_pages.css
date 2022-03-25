@@ -39,18 +39,20 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 @media (max-width: 800px) {
   /* CSS that should be displayed if width is equal to or less than 800px goes here */
     
-.top,
-.page,
-.bottom {
-  box-sizing: border-box;
-}
+
 
 body  {
 
   width: 400px;
 
 }
-
+.top,
+.page,
+.bottom {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
   .main { 
     box-sizing: border-box;
     width: 380px;
