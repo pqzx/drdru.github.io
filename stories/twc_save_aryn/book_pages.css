@@ -1,3 +1,12 @@
+* {
+
+   box-sizing: border-box;
+     margin:0px;
+     padding: 0px;
+}
+
+
+
 body { 
 
          background-color: #04042b;
@@ -33,17 +42,12 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
     
 
 
-html,body {min-width:390px;}
 
 
 
 
- body{
- box-sizing: border-box;
-     margin:0px;
-     padding: 0px;
-     width: 100vw;
- }  
+
+
 
   .main { 
     box-sizing: border-box;
