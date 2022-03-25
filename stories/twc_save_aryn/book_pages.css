@@ -1,9 +1,4 @@
-* {
 
-   box-sizing: border-box;
-     margin:0px;
-     padding: 0px;
-}
 
 
 
@@ -17,7 +12,9 @@ radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
 radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
 background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
 background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
-       
+   box-sizing: border-box;
+     margin:0px;
+     padding: 0px;     
  }
 
 
@@ -34,6 +31,8 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   margin: 0 auto;
 
   width: 790px;
+   box-sizing: border-box;
+   
 
 }
 
@@ -52,7 +51,9 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   .main { 
     box-sizing: border-box;
     width: 380px;
-    
+     box-sizing: border-box;
+     margin:0px;
+     padding: 0px;
 
    }
 
