@@ -39,13 +39,13 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 
   .main { 
 
-    width: min(380px, 95%);
+    width: 100%;
 
    }
 
    .top {
 
-width:  min(380px, 95%);
+width:  100%
 
 }
 .bottom {
