@@ -1,5 +1,5 @@
 body { 
-min-width:800px
+
          background-color: #04042b;
 background-image:
 
@@ -34,18 +34,18 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 
  body{
 
-    min-width:450px
+    width: 430px;
  }   
 
   .main { 
 
-    width: 380px;
-    
+    width: min(380px, 95%);
+
    }
 
    .top {
 
-width:  100%
+width:  min(380px, 95%);
 
 }
 .bottom {
