@@ -39,15 +39,16 @@ html,body {min-width:430px;}
 @viewport { width: 430px; }
 
  body{
-
+ box-sizing: border-box;
      margin:0px;
      padding: 0px;
+     width: 100vw;
  }  
 
   .main { 
 
     width: 380px;
-    float: left;
+    margin: 0 auto;
 
    }
 
