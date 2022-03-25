@@ -36,50 +36,6 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 
 }
 
-@media (max-width: 800px) {
-  /* CSS that should be displayed if width is equal to or less than 800px goes here */
-    
-
-
-body  {
-
-  width: 400px;
-
-}
-.top,
-.page,
-.bottom {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-  .main { 
-    box-sizing: border-box;
-    width: 380px;
-    margin: 0 auto;
-    padding: 0px;
-
-   }
-
-   .top {
-
-width:  380px;
-
-}
-.bottom {
-      
-
-width:  380px;
-
-}
-.page {
-      
-
-width:  380px ;
-float: none;
-}
-}
-
 
 
 
@@ -139,16 +95,16 @@ background-color: blue;
 
 
 .page {
-
+   width: 380px;
     color:  white;
      float: left;
-     border: 5px solid white;
-     width: 380px;
+     
+     
      height: 640px;
      background-color: blue;
      border-radius: 25px;
      margin-bottom: 10px;
-
+    border: 5px solid white;
 }
 
 
@@ -216,3 +172,59 @@ background-color: blue;
   margin-bottom: 10px;
 
 }
+
+@media (max-width: 850px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+    
+.page {
+
+     width: 400px;
+
+}
+
+
+body  {
+
+  width: 420px;
+
+}
+.top,
+.page,
+.bottom {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+
+
+
+.left_page {
+
+   margin-right: 0px;
+
+}
+
+  .main { 
+    box-sizing: border-box;
+    width: 400px;
+    margin: 0 auto;
+    padding: 0px;
+
+   }
+
+   .top {
+
+width:  400px;
+
+}
+.bottom {
+      
+
+width:  400px;
+
+}
+
+}
+
