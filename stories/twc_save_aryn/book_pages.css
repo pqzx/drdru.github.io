@@ -59,19 +59,19 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 
    .top {
 
-width:  min(380px, 95%);
+width:  380px;
 
 }
 .bottom {
       
 
-width:  min(380px, 95%);
+width:  380px;
 
 }
 .page {
       
 
-width:  min(380px, 95%);
+width:  380px ;
 float: none;
 }
 }
