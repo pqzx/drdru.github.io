@@ -41,19 +41,17 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
     
 
 
+body  {
 
+  width: 400px;
 
-
-
-
-
+}
 
   .main { 
     box-sizing: border-box;
     width: 380px;
-     box-sizing: border-box;
-     margin:0px;
-     padding: 0px;
+    margin: 0 auto;
+    padding: 0px;
 
    }
 
