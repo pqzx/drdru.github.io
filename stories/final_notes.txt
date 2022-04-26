@@ -14,9 +14,6 @@ A picture is worth a thousand word on Github repo
 
 Explain TW projetc 
 
-Crystal hunters
-Dokusho 
-Add thanks to Gorbit
 Add HN webistes
 
 
@@ -40,24 +37,20 @@ https://codepen.io/losborne24/pen/oNxEBXj bookshelf
 
 Check tatakau and tanoshii
 https://alvaromontoro.com/blog/67998/introducing-comicss
-+ dokushin club link
-https://game-endeavor.itch.io/mystic-woods
+
+
 https://adamatomic.itch.io/azul --> nerobi tiles
 https://dreamypixelart.itch.io/pixel-art-interiors inside the inn
-https://superdark.itch.io/16x16-free-npc-pack
-https://superdark.itch.io/enchanted-forest-characters
+
 https://raegstudio.itch.io/free-top-down-forest-pack
 https://bakudas.itch.io/generic-rpg-pack
-https://gif-superretroworld.itch.io/interior-pack
+
 https://arydian.itch.io/simple-wooden-bow-and-arrows
 Cono button 
 lingodeer
 memrise
 Jisho >> Shiteroiru
 Netlfix
-
-Arin yuong capture 2 soldier go to capture her . Sensei give them amulet. They think they ve defeated gogotz but have to flee into the woods . they meet enchanted forest people and become friedns and then beat gogotz
-
 
 
 
@@ -129,8 +122,6 @@ First then finally
 MAke some Did you know grammar things to introduce link with te form or first second last .... or Nara tara = to
 
 
-それは、Google、Bing、Yandex、Duckduckgoなどの検索エンジンです。
-
 
 キーワードや質問を入力します。
 キーボードで
@@ -139,14 +130,6 @@ MAke some Did you know grammar things to introduce link with te form or first se
 I type in a url such as 'drdru.github.io' or 'google.com'.
 
 キーボードで文字を入力する 
-
-
-Add this where appropriate
-<div class="card big_card">
-<p>
-<ruby>置<rt>お</rt></ruby>く + <ruby>中<rt>なか</rt></ruby> = <ruby>入<rt>い</rt><ruby>れる
-</p>
-</div>
 
 
 Online dictionary
@@ -162,7 +145,6 @@ Search result page of Google is interesting avec la wikipedia box on the right
 
 Non ninki Items https://emojipedia.org/chart-decreasing/
 
-On fashion Japanese sites a lot of words are written in Katakana
 
 ドレスを買いたい
 
@@ -170,10 +152,7 @@ On fashion Japanese sites a lot of words are written in Katakana
 
 
 
-ケシダさん keshida
-ジェネロ Genero
-クラビツ Kravitsu
-アレハンドロ Alejandro
+
 
 From DDG search to final payment. >> 鴨鴨5 Duck Duck Go
 Then detail the steps and the pages

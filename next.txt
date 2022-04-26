@@ -1,3 +1,0 @@
-Ruby app with account section to create your own emoji story.
-Finish onomatopeia app. Add sound
-
