@@ -25,7 +25,7 @@ a {
 
 .main_background {
 
-	background-color: white;
+	background-color: #79ad97;
 
 }
 
@@ -249,6 +249,16 @@ padding-right: 10px;
   padding-left: 7px;
   border-left: solid #adabb5 4px;
 }
+
+.editor {
+
+ background-color: white; 
+ border-radius:  10px; 
+ border: solid grey 2px; 
+ padding: 10px; 
+ margin-bottom:    15px;
+
+}
 </style>
 
 </head>
@@ -264,32 +274,97 @@ padding-right: 10px;
 <br>
 <br>
 <br>
-これはHTMLタグです。
-<br>
+<div class= "editor">
 &lt;p&gt;  &lt;/p&gt; <br>  
 &lt;a&gt;  &lt;/a&gt; <br>  &lt;span&gt;  &lt;/span&gt; <br> 
 &lt;div&gt;  &lt;/div&gt; <br>
 &lt;img&gt;  &lt;/img&gt; 
+</div>
+
+<span class="icon_twittemoji40">👆🏻</span> これはHTMLタグです
 <br>
 <br>
 <br>
-「&lt;span style=""&gt; Hello world &lt;/span&gt;」と入力すると、ブラウザは「Hello world」をランディングする。
+<span style="font-size: 80%;">「&lt;span style=""&gt; Hello world。 亮平です。 &lt;/span&gt;」</span> と入力すると、ブラウザは「Hello world」をランディングします
 <br><br>
-&lt;span style=""&gt; Hello world &lt;/span&gt;
+<div class= "editor">  
+<span style="font-size: 80%;">&lt;span style=""&gt; Hello world。 亮平です。 &lt;/span&gt;</span> 
+
 <br>
-<div class="centered_bold"> <span style="">Hello world</span></div>
-<br><br><br>
-フォントサイズを大きくするには、「font-size: 200%」を追加します。
+ </div>
+
+<div class= "editor" style="height:  150px;">  
+
+ <span style="">Hello world</span>
+
+ </div>
+<br><br>
+フォントサイズを大きくするには、<span style="font-size: 80%;">「font-size: 200%」</span>を追加します。
 <br>
-&lt;span style="font-size: 200%;"&gt; Hello world &lt;/span&gt;
 <br>
-<div class="centered_bold"> <span style="font-size: 200%;">Hello world</span></div> 
-<br><br><br>
-このタグを追加すると、フォントサイズが120%になります。
+<div class= "editor" ">  
+<span style="font-size: 80%;">&lt;span style="font-size: 200%;"&gt; 
+<br>Hello world。 亮平です。
+<br>
+&lt;/span&gt;</span> 
+
+<br>
+ </div>
+
+<div class= "editor" style="height:  180px;">  
+
+ <span style="font-size: 200%;">Hello world。 亮平です。</span>
+
+ </div>
+
+<br>
+<br>
+<span style="font-size: 80%;">「background-color: yellow;」</span>を追加すると、背景色が黄色になる。
+
+<br>
+<br>
+<div class= "editor" >  
+<span style="font-size: 80%;">&lt;span style="font-size: 200%; background-color: yellow;"&gt; 
+<br>Hello world。亮平です。 
+<br>
+&lt;/span&gt;</span> 
+
+<br>
+ </div>
+
+<div class= "editor" style="height:  180px;background-color: yellow;">  
+
+ <span style="font-size: 200%; ">Hello world。亮平です。</span>
+
+ </div>
+
+
+<br>
+<br>
+ふりがなをつけるには、「<span style="font-size: 80%;">&lt;ruby&gt; &lt;rt&gt;  &lt;/rt&gt;   &lt;/ruby&gt; </span>」を追加する。
+
+<br>
+<br>
+<div class= "editor" ">  
+<span style="font-size: 80%;">&lt;span style="font-size: 200%; background-color: yellow;"&gt; 
+<br>Hello world。 亮平です。 
+<br>
+&lt;/span&gt;</span> 
+
+<br>
+ </div>
+
+<div class= "editor" style="height:  180px;background-color: yellow;">  
+
+ <span style="font-size: 200%; ">Hello world</span>
+
+ </div>
+
+
 
 画像を挿入するには、「&lt;/image&gt;」を使います。
 
-フォントサイズを大きくするには、「font-size:120%」を追加します。
+
 I can change the height and width
 
 テキストを赤くするには、「color=red」を追加します。
@@ -302,6 +377,8 @@ I can change the height and width
 <div class="long_text_div "> 
 <p>
 漢字にふりがなを付けるには、このタグを使います。
+
+Let's create a button fro te form
 </p>
 </div>
 
