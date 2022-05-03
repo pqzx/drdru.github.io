@@ -39,7 +39,7 @@ a {
 
 .long_text_div {
 
-	  width: 440px;
+	  width: 500px;
 	font-size: 170%;
 	padding: 0px;
 	margin: auto;
@@ -283,12 +283,83 @@ padding-right: 10px;
 
 <span class="icon_twittemoji40">👆🏻</span> これはHTMLタグです
 <br>
+HTMLは「Hyper Text Markup Language」の意味です。
 <br>
 <br>
-<span style="font-size: 80%;">「&lt;span style=""&gt; Hello world。 亮平です。 &lt;/span&gt;」</span> と入力すると、ブラウザは「Hello world」をランディングします
+<br>
+<div class= "editor">
+.example {
+<br> height: 80px;
+<br> width: 80px;
+<br> color: red;
+<br>
+}
+</div>
+
+<span class="icon_twittemoji40">👆🏻</span> これはCSSです
+<br>
+CSSは「Cascading Style Sheets」の意味です。
+
+<br>
+<br>
+<br>
+ウェブページを作ろう
+<br>
+<div class= "editor">
+.example {
+<br> height: 80px;
+<br> width: 80px;
+<br> color: red;
+<br>
+}
+</div>
+
+<br>
+<Br>
+
+<div class= "editor" style="font-size: 70%;">  
+&lt; !DOCTYPE html&gt; 
+<br>
+&lt;head &gt;
+<br>
+
+&lt;style &gt;
+<br>
+.example {
+<br> height: 80px;
+<br> width: 80px;
+<br> color: red;
+<br>
+}
+<br>
+&lt;/style &gt;
+<br>
+&lt;/head &gt;
+<br>
+<br>
+&lt;body &gt;
+<br>
+&lt;ruby&gt; 亮平 &lt;rt&gt; りょうへい &lt;/rt&gt;   &lt;/ruby&gt;です。 
+<br>
+&lt;/body &gt;
+
+<br>
+
+
+ </div>
+
+<br>
+<span class="icon_twittemoji40">👆🏻</span> これはHTMLページです。
+
+
+
+<span style="font-size: 80%;">「&lt;span class="test_class"&gt; Hello world。 亮平です。 &lt;/span&gt;」</span> と入力すると、ブラウザは「Hello world」をランディングします
 <br><br>
-<div class= "editor">  
-<span style="font-size: 80%;">&lt;span style=""&gt; Hello world。 亮平です。 &lt;/span&gt;</span> 
+<div class= "editor" style="font-size: 80%;">  
+&lt;style &gt; 
+<br>
+&lt;/style &gt;
+<span >&lt;span class=""&gt; Hello world。 亮平です。 &lt;/span&gt;</span> 
 
 <br>
  </div>
@@ -299,11 +370,11 @@ padding-right: 10px;
 
  </div>
 <br><br>
-フォントサイズを大きくするには、<span style="font-size: 80%;">「font-size: 200%」</span>を追加します。
+フォントサイズを大きくするには、<span style="font-size: 80%;">「font-size: 150%」</span>を追加します。
 <br>
 <br>
 <div class= "editor" ">  
-<span style="font-size: 80%;">&lt;span style="font-size: 200%;"&gt; 
+<span style="font-size: 80%;">&lt;span style="font-size: 150%;"&gt; 
 <br>Hello world。 亮平です。
 <br>
 &lt;/span&gt;</span> 
@@ -313,18 +384,18 @@ padding-right: 10px;
 
 <div class= "editor" style="height:  180px;">  
 
- <span style="font-size: 200%;">Hello world。 亮平です。</span>
+ <span style="font-size: 150%;">Hello world。 亮平です。</span>
 
  </div>
 
 <br>
 <br>
-<span style="font-size: 80%;">「background-color: yellow;」</span>を追加すると、背景色が黄色になる。
+<span style="font-size: 80%;">「background-color: yellow;」</span>を追加すると、バックグラウンドカラー色が黄色になる。
 
 <br>
 <br>
 <div class= "editor" >  
-<span style="font-size: 80%;">&lt;span style="font-size: 200%; background-color: yellow;"&gt; 
+<span style="font-size: 80%;">&lt;span style="font-size: 150%; background-color: yellow;"&gt; 
 <br>Hello world。亮平です。 
 <br>
 &lt;/span&gt;</span> 
@@ -334,20 +405,27 @@ padding-right: 10px;
 
 <div class= "editor" style="height:  180px;background-color: yellow;">  
 
- <span style="font-size: 200%; ">Hello world。亮平です。</span>
+ <span style="font-size: 150%; ">Hello world。亮平です。</span>
 
  </div>
 
 
 <br>
 <br>
-ふりがなをつけるには、「<span style="font-size: 80%;">&lt;ruby&gt; &lt;rt&gt;  &lt;/rt&gt;   &lt;/ruby&gt; </span>」を追加する。
-
+漢字にふりがなをつけるには、
+<br>
+「<span style="font-size: 80%;">&lt;ruby&gt; &lt;rt&gt;  &lt;/rt&gt;   &lt;/ruby&gt; </span>」
+<br>
+を追加して
+<br>
+ ひらがなを書きます
 <br>
 <br>
 <div class= "editor" ">  
-<span style="font-size: 80%;">&lt;span style="font-size: 200%; background-color: yellow;"&gt; 
-<br>Hello world。 亮平です。 
+<span style="font-size: 80%;">&lt;span style="font-size: 150%; background-color: yellow;"&gt; 
+<br>Hello world。 
+<br>
+&lt;ruby&gt; 亮平 &lt;rt&gt; りょうへい &lt;/rt&gt;   &lt;/ruby&gt;です。 
 <br>
 &lt;/span&gt;</span> 
 
@@ -356,11 +434,18 @@ padding-right: 10px;
 
 <div class= "editor" style="height:  180px;background-color: yellow;">  
 
- <span style="font-size: 200%; ">Hello world</span>
+ <span style="font-size: 150%; ">Hello world。<ruby>亮平<rt>りょうへい</rt></ruby>です。</span>
 
  </div>
+<div ></div>
+ <br>
+ボタンを作ろう
+このボタンを作るには、「next」と入力し、「color= red and all CSS」を追加し、背景色を追加します。
 
+<br>
+</div>
 
+<!--
 
 画像を挿入するには、「&lt;/image&gt;」を使います。
 
@@ -381,7 +466,7 @@ I can change the height and width
 Let's create a button fro te form
 </p>
 </div>
-
+-->
 
 <div class="big last_div centered_bold">
 <p>
