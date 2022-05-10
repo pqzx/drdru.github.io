@@ -1,0 +1,556 @@
+1	あげる 	ageru	to give
+2	朝 	asa	morning
+3	封筒 	fuutou	envelope
+4	冬 	fuyu	winter
+5	五 	go	five
+6	否 	iie	no, nay
+7	一緒 	issho	together
+8	可愛い 	kawaii	cute, adorable
+9	喫茶店 	kissaten	coffee shop
+10	お菓子 	okashi	sweets, candy
+11	面白い 	omoshiroi	interesting, fascinating
+12	お姉さん 	oneesan	elder sister
+13	廊下 	rouka	corridor, hallway
+14	知る 	shiru	to be aware of, to know
+15	大変 	taihen	very, greatly, immense
+16	隣 	tonari	neighbor, next to
+17	図書館 	toshokan	library
+18	フォーク 	fooku	fork
+19	セーター 	seetaa	sweater, jumper
+20	スプーン 	supuun	spoon
+21	段々 	dandan	gradually, little by little
+22	牛肉 	gyuuniku	beef
+23	葉書 	hagaki	postcard
+24	火 	hi	fire, flame
+25	本 	hon	book
+26	今 	ima	now, the present time
+27	方 	hou	direction, way, side
+28	切る 	kiru	to cut
+29	毎朝 	maiasa	every morning
+30	窓 	mado	window
+31	待つ 	matsu	to wait, to look forward to
+32	中 	naka	inside, in, among
+33	名前 	namae	name, full name
+34	日曜日 	nichiyoubi	Sunday
+35	飲む 	nomu	to drink, to gulp
+36	練習 	renshuu	practice, practicing
+37	寒い 	samui	cold
+38	下 	shita	below, down, under
+39	大切 	taisetsu	important, necessary
+40	一日 	ichinichi	one day
+41	強い 	tsuyoi	strong, powerful
+42	上着 	uwagi	coat, jacket
+43	渡る 	wataru	to cross over
+44	山 	yama	mountain
+45	クラス 	kurasu	class
+46	ゼロ 	zero	zero, naught
+47	開く 	hiraku	to open, to undo
+48	あそこ 	asoko	there, over there
+49	暖かい 	atatakai	warm, mild
+50	病院 	byouin	hospital
+	違う 	chigau	to differ
+52	ちょうど 	choudo	exactly, precisely, just
+53	誰 	dare	who
+54	元気 	genki	lively, full of spirit
+55	月曜日 	getsuyoubi	Monday
+56	貼る 	haru	to stick, to paste
+57	要る 	iru	to need, to want
+58	自動車 	jidousha	automobile
+59	軽い 	karui	light
+60	北 	kita	north
+61	果物 	kudamono	fruit
+62	丸い 	marui	round, circular
+63	南 	minami	south
+64	店 	mise	store, shop
+65	荷物 	nimotsu	luggage, baggage
+66	お腹 	onaka	stomach
+67	先週 	senshuu	last week
+68	側 	soba	near, close, beside
+69	少し 	sukoshi	small quantity, little
+70	ベッド 	beddo	bed
+71	ドア 	doa	door
+72	甘い 	amai	sweet
+73	暑い 	atsui	hot
+74	ちょっと 	chotto	a little
+75	電気 	denki	electricity, light
+76	どちら 	dochira	which one
+77	映画 	eiga	movie, film
+78	牛乳 	gyuunyuu	milk
+79	左 	hidari	left, left hand side
+80	子供 	kodomo	child, children
+81	聞く 	kiku	to hear, to listen
+82	靴 	kutsu	shoes, boots
+83	靴下 	kutsushita	socks
+84	木曜日 	mokuyoubi	Thursday
+85	寝る 	neru	to go to bed
+86	お金 	okane	money
+87	起きる 	okiru	to get up, to rise
+88	同じ 	onaji	same, identical
+89	お父さん 	otousan	father, dad
+90	砂糖 	satou	sugar
+91	先生 	sensei	teacher, master, doctor
+92	閉まる 	shimaru	to be shut, to close
+93	する 	suru	to do
+94	煩い 	urusai	noisy, loud
+95	悪い 	warui	bad, poor, inferior
+96	デパート 	depaato	department store
+97	プール 	puuru	swimming pool
+98	ストーブ 	sutoobu	heater, stove
+99	帽子 	boushi	hat, cap
+100	近く 	chikaku	near, neighborhood
+	電車 	densha	train, electric train
+102	鉛筆 	enpitsu	pencil
+103	服 	fuku	clothes
+104	灰皿 	haizara	ashtray
+105	飛行機 	hikouki	aeroplane, airplane
+106	痛い 	itai	painful, sore
+107	辞書 	jisho	dictionary
+108	ここ 	koko	here
+109	毎月 	maitsuki/maigetsu	every month
+110	耳 	mimi	ear
+111	皆 	minna	all, everyone
+112	奥さん 	okusan	wife, your wife, his wife
+113	歳 	sai	years old
+114	背 	se	height, stature
+115	飛ぶ 	tobu	to fly
+116	遠い 	tooi	far, distant
+117	とても 	totemo	very, exceedingly
+118	売る 	uru	to sell
+119	横 	yoko	horizontal, beside
+120	動物 	doubutsu	animal
+121	二人 	futari	two people, pair
+122	二十日 	hatsuka	twentieth day of the month, twenty days
+123	本当 	hontou	truth, reality
+124	他 	hoka	other, the rest
+125	自転車 	jitensha	bicycle
+126	家族 	kazoku	family, members of a family
+127	消える 	kieru	to go out, to vanish
+128	前 	mae	front, ahead, previous
+129	見せる 	miseru	to show, to display
+130	問題 	mondai	question, problem
+131	難しい 	muzukashii	difficult, hard
+132	鳴く 	naku	to sing
+133	押す 	osu	to push, to press
+134	男 	otoko	man, male
+135	誕生日 	tanjoubi	birthday
+136	頼む 	tanomu	to request, to beg, to ask
+137	薄い 	usui	thin, pale, light
+138	八日 	youka	eight day of the month, eight days
+139	雑誌 	zasshi	journal, magazine
+140	コップ 	koppu	glass
+141	後 	ato	behind after, later
+142	出かける 	dekakeru	to go out
+143	どうも 	doumo	thanks
+144	駅 	eki	station
+145	学校 	gakkou	school
+146	学生 	gakusei	student
+147	午前 	gozen	morning, a.m.
+148	橋 	hashi	bridge
+149	幾つ 	ikutsu	how many, how old
+150	授業 	jugyou	lesson, class work
+151	角 	tsuno	horn
+152	漢字 	kanji	Chinese characters
+153	体 	karada	body, torso
+154	木 	ki	tree
+155	短い 	mijikai	short
+156	乗る 	noru	to get on
+157	お弁当 	obentou	Japanese lunch box
+158	重い 	omoi	heavy, weighty
+159	泳ぐ 	oyogu	to swim
+160	来週 	raishuu	next week
+161	咲く 	saku	to bloom
+162	散歩 	sanpo	walk, stroll
+163	好き 	suki	liking, fondness, love
+164	住む 	sumu	to live, to reside
+165	時計 	tokei	watch, clock
+166	勤める 	tsutomeru	to work
+167	若い 	wakai	young, youthful
+168	エレベータ 	erebeeta	elevator
+169	パーティー 	paatii	party
+170	スリッパ 	surippa	slippers
+171	テレビ 	terebi	television, TV
+172	朝ご飯 	asagohan	breakfast
+173	晩ご飯 	bangohan	dinner
+174	出口 	deguchi	exit, gateway
+175	降る 	furu	to fall
+176	午後 	gogo	afternoon, p.m.
+177	働く 	hataraku	to work
+178	早く 	hayaku	early, soon, quickly
+179	広い 	hiroi	spacious, vast, wide
+180	金曜日 	kin’youbi	Friday
+181	今週 	konshuu	this week
+182	兄弟 	kyoudai	siblings, brothers and sisters
+183	口 	kuchi	mouth, opening, hole
+184	目 	me	eye, eyeball
+185	猫 	neko	cat
+186	女 	onna	female, woman
+187	教える 	oshieru	to teach, to instruct
+188	死ぬ 	shinu	to die, to pass away
+189	所 	tokoro	place, spot, scene
+190	次 	tsugi	next, following
+191	郵便局 	yuubinkyoku	post office
+192	浴びる 	abiru	to take a shower
+193	洗う 	arau	to wash
+194	出す 	dasu	to take out
+195	春 	haru	spring, springtime
+196	辺 	hen	area, vicinity
+197	下手 	heta	unskillful
+198	言う 	iu	to say, to utter
+199	自分 	jibun	myself, yourself, oneself
+200	貸す 	kasu	to lend, to loan
+201	今年 	kotoshi	this year
+202	去年 	kyonen	last year
+203	眼鏡 	megane	spectacles, glasses
+204	門 	mon	gate
+205	二 	ni	two
+206	男の子 	otoko no ko	boy
+207	新聞 	shinbun	newspaper
+208	白い 	shiroi	white
+209	止まる 	tomaru	to stop
+210	鳥 	tori	bird
+211	使う 	tsukau	to use, to make use of
+212	歌 	uta	song
+213	夜 	yoru	evening, night
+214	コーヒー 	koohii	coffee
+215	大丈夫 	daijoubu	safe, all right, okay
+216	電話 	denwa	telephone call, phone
+217	どうぞ 	douzo	please, feel free
+218	絵 	e	picture, drawing, painting
+219	始まる 	hajimaru	to begin, to start
+220	引く 	hiku	to pull, to draw
+221	字引 	jibiki	dictionary
+222	時間 	jikan	time, hours
+223	風邪 	kaze	cold, influenza
+224	紅茶 	koucha	black tea
+225	毎晩 	maiban	every night
+226	緑 	midori	green
+227	賑やか 	nigiyaka	bustling, busy, lively
+228	庭 	niwa	garden, yard
+229	作文 	sakubun	writing
+230	三 	san	three
+231	座る 	suwaru	to sit
+232	卵 	tamago	egg, spawn
+233	戸 	to	door
+234	分かる 	wakaru	to understand, to comprehend
+235	姉 	ane	older sister
+236	遊ぶ 	asobu	to play
+237	出る 	deru	to leave, to exit
+238	玄関 	genkan	entranceway, entrance hall
+239	初めて 	hajimete	for the first time
+240	二十歳 	hatachi	twenty years old
+241	弾く 	hiku	to play
+242	犬 	inu	dog
+243	入口 	iriguchi	entrance, gate
+244	九日 	kokonoka	ninth day of the month, nine days
+245	国 	kuni	country, state, region
+246	毎年 	maitoshi	every year, yearly
+247	見る 	miru	to see, to look, to watch
+248	並ぶ 	narabu	to stand in a line
+249	お兄さん 	oniisan	elder brother
+250	大人 	otona	adult
+251	一昨日 	ototoi	day before yesterday
+252	洗濯 	sentaku	washing, laundry
+253	締める 	shimeru	to tie, to fasten, to tighten
+254	空 	kara	emptiness, vacuum, blank
+255	煙草 	tabako	tabacco, cigarette
+256	高い 	takai	high, tall, expensive
+257	生まれる 	umareru	to be born
+258	有名 	yuumei	famous
+259	ペット 	petto	pet
+260	足 	ashi	foot, leg
+261	どうして 	doushite	why, for what reason
+262	始め 	hajime	beginning, start
+263	箱 	hako	box, chest
+264	走る 	hashiru	to run
+265	早い 	hayai	early
+266	部屋 	heya	room, chamber
+267	人 	hito	person
+268	一つ 	hitotsu	one
+269	百 	hyaku	hundred
+270	上手 	jouzu	skill, skillful
+271	会社 	kaisha	company, corporation
+272	書く 	kaku	to write, to compose
+273	風 	fuu	appearance; air
+274	毎日 	mainichi	every day
+275	不味い 	mazui	unappetizing, unsavory
+276	道 	michi	road, street, way
+277	向こう 	mukou	opposite side, other side
+278	お巡りさん 	omawarisan	police officer
+279	再来年 	sarainen	year after next
+280	狭い 	semai	narrow, confined
+281	仕事 	shigoto	work, job
+282	掃除 	souji	cleaning, sweeping
+283	食べ物 	tabemono	food
+284	大使館 	taishikan	embassy
+285	建物 	tatemono	building
+286	天気 	tenki	weather
+287	詰まらない 	tsumaranai	dull, uninteresting
+288	歌う 	utau	to sing
+289	読む 	yomu	to read
+290	弱い 	yowai	weak, frail, delicate
+291	雪 	yuki	snow
+292	ゆっくり 	yukkuri	slowly, at ease
+293	キロ 	kiro	kilogram
+294	コート 	kooto	coat
+295	テープ 	teepu	tape
+296	明るい 	akarui	bright, colorful
+297	茶碗 	chawan	rice bowl, tea cup
+298	大学 	daigaku	university
+299	どこ 	doko	where
+300	ご飯 	gohan	cooked rice, meal
+301	家 	ie	house, residence
+302	色々 	iroiro	various
+303	五つ 	itsutsu	five
+304	嫌 	iya	disagreeable, detestable
+305	返す 	kaesu	to return
+306	買物 	kaimono	shopping
+307	答える 	kotaeru	to answer, to reply
+308	交差点 	kousaten	crossing, intersection
+309	来る 	kuru	to come
+310	毎週 	maishuu	every week
+311	右 	migi	right, right hand side
+312	並べる 	naraberu	to line up
+313	お祖母さん 	obaasan	grandmother
+314	財布 	saifu	purse, wallet
+315	背広 	sebiro	business suit
+316	宿題 	shukudai	homework
+317	立つ 	tatsu	to stand, to rise
+318	時々 	tokidoki	sometimes, at times
+319	疲れる 	tsukareru	to get tired
+320	忘れる 	wasureru	to forget
+321	休む 	yasumu	to be absent, to take a day off
+322	グラム 	guramu	gram
+323	秋 	aki	autumn
+324	会う 	au	to meet
+325	外国人 	gaikokujin	foreigner
+326	東 	higashi	east
+327	一人 	hitori	one person, alone
+328	意味 	imi	meaning, significance
+329	いつも 	itsumo	always, usually
+330	辛い 	tsurai	painful, bitter
+331	買う 	kau	to buy, to purchase
+332	今朝 	kesa	this morning
+333	六日 	muika	sixth day of the month, six days
+334	伯母さん 	obasan	aunt
+335	お風呂 	ofuro	bath
+336	置く 	oku	to put, to place
+337	両親 	ryoushin	parents, both parents
+338	先 	saki	previous, prior, former
+339	写真 	shashin	photograph, photo, picture
+340	手紙 	tegami	letter
+341	冷たい 	tsumetai	cold
+342	上 	kami	person of high rank, government
+343	後ろ 	ushiro	back, behind, rear
+344	やる 	yaru	to do
+345	洋服 	youfuku	Western-style clothes
+346	兄 	ani	older brother
+347	熱い 	atsui	hot
+348	厚い 	atsui	thick
+349	地下鉄 	chikatetsu	subway, metro
+350	台所 	daidokoro	kitchen
+351	入る 	hairu	to enter, to go into
+352	半分 	hanbun	half
+353	傘 	kasa	umbrella
+354	結婚 	kekkon	marriage
+355	音楽 	ongaku	music
+356	一昨年 	ototoshi	year before last
+357	来月 	raigetsu	next month
+358	料理 	ryouri	cooking, cuisine
+359	七 	shichi, nana	seven
+360	外 	soto	outside, exterior
+361	多分 	tabun	perhaps, probably
+362	楽しい 	tanoshii	enjoyable, fun
+363	海 	umi	sea, ocean
+364	渡す 	watasu	to hand over, to hand in
+365	野菜 	yasai	vegetable
+366	バス 	basu	bus
+367	ポケット 	poketto	pocket
+368	赤/赤い 	aka/akai	red
+369	雨 	ame	rain
+370	二日 	futsuka	second day of the month, two days
+371	晴れる 	hareru	to clear up
+372	一番 	ichiban	number one, first, first place
+373	池 	ike	pond
+374	幾ら 	ikura	how much, how many
+375	切手 	kitte	stamp
+376	車 	kuruma	car, automobile
+377	町 	machi	town, block
+378	また 	mata	again, also
+379	長い 	nagai	long, lengthy
+380	何 	nani	what
+381	なる 	naru	to become
+382	夏 	natsu	summer
+383	覚える 	oboeru	to memorize, to remember
+384	大きい 	ookii	big, large, great
+385	終わる 	owaru	to finish, to end
+386	石鹸 	sekken	soap
+387	閉める 	shimeru	to close, to shut
+388	塩 	shio	salt
+389	食堂 	shokudou	dining room, dining hall
+390	食べる 	taberu	to eat
+391	沢山 	takusan	a lot, plenty, many
+392	十日 	tooka	tenth day of the month, ten days
+393	豚肉 	butaniku	pork
+394	父 	chichi	father
+395	どう 	dou	how, in what way, how about
+396	吹く 	fuku	to blow
+397	日 	hi	day, sun
+398	警官 	keikan	police officer, policeman
+399	切符 	kippu	ticket
+400	着る 	kiru	to wear, to put on
+401	言葉 	kotoba	language, dialect
+402	薬 	kusuri	medicine
+403	肉 	niku	flesh, meat
+404	お茶 	ocha	tea
+405	お母さん 	okaasan	mother
+406	机 	tsukue	desk
+407	作る 	tsukuru	to make, to produce
+408	休み 	yasumi	rest, recess
+409	全部 	zenbu	all, entire, whole
+410	アパート 	apaato	apartment
+411	危ない 	abunai	dangerous, risky
+412	青い 	aoi	blue
+413	有る 	aru	to be, to exist
+414	便利 	benri	convenient, handy
+415	古い 	furui	old
+416	速い 	hayai	fast, quick
+417	行く 	iku	to go
+418	入れる 	ireru	to put in, to let in
+419	忙しい 	isogashii	busy, occupied
+420	椅子 	isu	chair, stool
+421	結構 	kekkou	spenlid, nice, okay
+422	声 	koe	voice
+423	黒い 	kuroi	black, dark
+424	水 	mizu	water
+425	登る 	noboru	to ascend, to go up
+426	脱ぐ 	nugu	to take off
+427	お皿 	osara	plate, dish
+428	来年 	rainen	next year
+429	旅行 	ryokou	travel, trip
+430	質問 	shitsumon	question, inquiry
+431	年 	toshi	year, age
+432	四日 	yokka	fourth day of the month, four days
+433	スカート 	sukaato	skirt
+434	歩く 	aruku	to walk
+435	小さい 	chiisai	small, little, tiny
+436	誰か 	dareka	someone, somebody
+437	歯 	ha	tooth
+438	母 	haha	mother
+439	鼻 	hana	nose
+440	低い 	hikui	low
+441	鞄 	kaban	bag
+442	黄色い 	kiiroi	yellow
+443	今晩 	konban	tonight, this evening
+444	交番 	kouban	police box
+445	教室 	kyoushitsu	classroom, department
+446	暗い 	kurai	dark, gloomy
+447	曲がる 	magaru	to bend, to curve
+448	西 	nishi	west
+449	美味しい 	oishii	delicious, tasty
+450	冷蔵庫 	reizouko	refrigerator
+451	生徒 	seito	pupil
+452	友達 	tomodachi	friend, companion
+453	取る 	toru	to take, to pick up
+454	撮る 	toru	to take
+455	ギター 	gitaa	guitar
+456	カメラ 	kamera	camera
+457	ズボン 	zubon	trousers, pants
+458	番号 	bangou	number
+459	茶色 	chairo	light brown
+460	八 	hachi	eight
+461	花 	hana	flower, blossom
+462	帰る 	kaeru	to return, to come home
+463	汚い 	kitanai	dirty, filthy
+464	九 	kyuu	nine
+465	今日 	konnichi	this day, these days, recently
+466	曇り 	kumori	cloudiness, cloudy weather
+467	万 	man	ten thousand
+468	習う 	narau	to be taught, to learn
+469	飲物 	nomimono	drink, beverage
+470	お手洗い 	otearai	toilet, restroom
+471	魚 	sakana	fish
+472	先月 	sengetsu	last month
+473	少ない 	sukunai	few, a little
+474	着く 	tsuku	to arrive at, to reach
+475	呼ぶ 	yobu	to call out, to call
+476	シャワー 	shawaa	shower
+477	シャツ 	shatsu	shirt
+478	近い 	chikai	near, close
+479	地図 	chizu	map
+480	映画館 	eigakan	movie theater, cinema
+481	銀行 	ginkou	bank
+482	箸 	hashi	chopsticks
+483	暇 	hima	spare time, free time
+484	昼 	hiru	noon, midday
+485	いい 	ii	good
+486	色 	iro	color, complexion
+487	鍵 	kagi	key
+488	紙 	kami	paper
+489	家庭 	katei	home, family, household
+490	川 	kawa	river, stream
+491	消す 	kesu	to erase, to delete
+492	昨日 	kinou	yesterday
+493	まだ 	mada	still, not yet
+494	村 	mura	village
+495	四 	shi, yon	four
+496	醤油 	shouyu	soy sauce
+497	ペン 	pen	pen
+498	スポーツ 	supootsu	sport
+499	タクシー 	takushii	taxi
+500	テープレコーダー 	teepu rekoodaa	tape recorder
+501	開ける 	akeru	to open
+502	あなた 	anata	you
+503	明後日 	asatte	day after tomorrow
+504	明日 	ashita	tomorrow
+505	頭 	atama	head
+506	英語 	eigo	English
+507	話す 	hanasu	to talk, to speak
+508	昼ご飯 	hirugohan	lunch, midday meal
+509	本棚 	hondana	bookshelf, bookcase
+510	妹 	imouto	younger sister
+511	階段 	kaidan	stairs, stairway
+512	嫌い 	kirai	dislike, hate
+513	困る 	komaru	to be troubled, to be worried
+514	磨く 	migaku	to polish, to shine
+515	持つ 	motsu	to hold
+516	七日 	nanoka	seventh day of the month, seven days
+517	弟 	otouto	younger brother
+518	六 	roku	six
+519	留学生 	ryuugakusei	overseas student
+520	吸う 	suu	to smoke, to breathe in
+521	テーブル 	teeburu	table
+522	テスト 	tesuto	test
+523	トイレ 	toire	toilet, restroom
+524	新しい 	atarashii	new, fresh
+525	勉強 	benkyou	study, diligence
+526	病気 	byouki	illness, disease
+527	土曜日 	doyoubi	Saturday
+528	外国 	gaikoku	foreign country
+529	話 	hanashi	talk, speech, chat
+530	一 	ichi	one
+531	一日 	ichinichi	one day
+532	五日 	itsuka	fifth day of the month, five days
+533	借りる 	kariru	to borrow
+534	奇麗 	kirei	pretty, lovely, beautiful
+535	無くす 	nakusu	to lose something
+536	女の子 	onna no ko	girl
+537	多い 	ooi	many, numerous, a lot
+538	大勢 	oozei	many, crowd, great number of people
+539	降りる 	oriru	to descend, to get off
+540	遅い 	osoi	slow, late
+541	酒 	sake	alcohol, sake
+542	千 	sen	thousand
+543	静か 	shizuka	quiet, silent
+544	水曜日 	suiyoubi	Wednesday
+545	涼しい 	suzushii	cool, refreshing
+546	手 	te	hand
+547	私 	watashi	I, me
+548	安い 	yasui	cheap, inexpensive
+549	ホテル 	hoteru	hotel
+
+
+
+
+
+ ホテルの朝食は美味しいです
+ そして安い!
