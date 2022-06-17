@@ -26,7 +26,10 @@
   border: 2px solid #3399FF;
 }
 
-
+.icon_twittemoji .emoji {
+    height: 40px;
+    width: 40px;
+}
 </style>
 </head><body class="">
 
@@ -50,8 +53,8 @@
 </div>
 
 </div>
-<div style="padding-left: 20px; padding-right: 20px; font-size: 200%; overflow-wrap: break-word;">
-<ruby>少年<rt>しょうねん</rt></ruby>はもう2<ruby>時間<rt><!--じかん--></rt></ruby>も<ruby>歩<rt><!--ある--></rt></ruby>きました。もうすぐお<ruby>昼<rt>ひる</rt></ruby>でした。
+<div style="padding-left: 20px; padding-right: 20px; font-size: 180%; overflow-wrap: break-word;">
+   <ruby>少年<rt>しょうねん</rt></ruby>はもう2<ruby>時間<rt><!--じかん--></rt></ruby>も<ruby>歩<rt><!--ある--></rt></ruby>きました。もうすぐ昼になりました。
 
 
 
@@ -74,9 +77,10 @@
 </div>
 
 
-<div style="padding-top: 20px; padding-left: 20px; padding-right: 20px; font-size: 200%; overflow-wrap: break-word; text-align: center; margin-bottom: 15px;">
-  
-<ruby>🥪<rt>モグモグ</rt></ruby> 
+<div style="padding-top: 20px; padding-left: 20px; padding-right: 20px; font-size: 100%; overflow-wrap: break-word; text-align: center; margin-bottom: 15px;">
+モグモグ  
+  <br>
+<ruby><span class="icon_twittemoji">🥪</span><rt></rt></ruby> 
 </div>
 
 <div class="dialogue">
@@ -94,7 +98,7 @@
 </div>
 
 
-<div class="dialogue">
+<div class="dialogue" style="margin-bottom: 25px;">
 
 <div style="width: 20%; padding-left: 5px; padding-top: 10px" >
 <div class="markus" style="color: blue;">.</div></div>
@@ -106,7 +110,8 @@
 
 <div style="padding-top: 20px; padding-left: 20px; padding-right: 20px; font-size: 200%; overflow-wrap: break-word; text-align: center; margin-bottom: 15px;">
   
-🐻
+<span class="icon_twittemoji">🐻</span>
+
 </div>
 
 </div>
@@ -125,6 +130,9 @@
 
 
 </div>
-
+  <script src="https://twemoji.maxcdn.com/2/twemoji.min.js?12.0.0"></script>
+    <script>
+      twemoji.parse(document.body);
+    </script>
 
 </body></html>
