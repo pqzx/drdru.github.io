@@ -2,20 +2,17 @@ New sword
 Sleep
 watter recover HP and MP
 
-4 walk 
-5 fall
-6 what's giong to happen
-7 wake up and fight
-8 message to celes
-9 celes which way ?
-10 coordination to open something
+
 11 meet
-12 rest and recover
-13 rune hunt (special runes)
-14 attack by big worm they fight but it is too big 
-15 Celes uses magic
-16 Discussion
-17 Door opens What happened ?
+12 celes which way ?
+12 coordination to open something 1 
+13 coordination to open something 2
+14 rest and recover 
+15 rune hunt (special runes)
+16 attack by big worm they fight but it is too big 
+17 Celes uses magic
+18 Discussion
+19 Door opens What happened ?
 
 
 
@@ -36,3 +33,84 @@ Think about what we could do
 
 Go back to the cavern for a celebration. 
 End by sendig cles receiving message
+
+
+
+おはようございます、ヒーローです。ベッドを出る時間です。
+
+起きろ
+ベッドにいたい。
+
+
+お腹が空いた
+
+
+朝食は何がいい？
+
+What do you wanto drink ?
+Tea or coffee 
+
+And to eat ?
+Croissant / Eggs & Sausages ?
+
+ 
+You've eaten. Go to town.
+
+
+Do you want to walk or to run ?
+
+
+It takes you 10 minuestes
+
+You've arrived in Rocktown village.
+Do you want to have a quick drink at the inn ?
+
+Yes  >  Drinking alcohol in the morning is not good.
+ 
+No > I
+
+
+Is Markus dating this pink haired girl ?
+
+>  Continue
+
+
+Do you want to 
+
+> buy food ?
+
+> buy a weapon ? 
+
+> buy objects ?
+
+
+You buy 
+
+It's expensive ! 
+
+Buy 
+
+Do you want red or green apples ?
+The apples are red and look delicious
+
+Buy potions  (and see celestina)
+
+
+You have every thing you need. Go to Dungeon
+
+
+You walk 
+
+
+You walk 
+
+You walk
+
+
+
+
+汚い
+帰る
+賑やか
+卵
+曇る
