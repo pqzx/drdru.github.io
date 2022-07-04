@@ -1,0 +1,201 @@
+1
+
+おはようございます、ヒーロー。ベッドを出る時間です。
+
+> 夏休みです。ベッドに寝たまま。
+> 起きろ
+
+> 1 - n
+
+頭が痛い
+お腹が空いた
+> 起きろ
+
+> 1 - d 
+Green 洋装を着る
+
+台所へ行く
+
+
+> 2 
+朝食に何を飲みたいですか？
+
+お茶かコーヒーか？
+
+> 3 
+
+そして、何を食べたいですか？
+
+パンとバター？卵とソーセージ ?
+
+ 
+> 4 
+おいしいんですよ。 もっと欲しいですか？
+
+Yes / No
+
+> 5 
+午前8時です。
+
+街へ出る。
+
+> 6 
+歯を磨かなかったのか！？
+
+お手洗いに行く。
+
+7
+> 靴下と靴を履いて家を出る
+
+庭に行く
+
+
+8 村に行きたいのか、走りたいのか？
+
+It takes you 10 minuestes
+
+
+9 ロックタウンに着く
+
+
+10 ホテルでビールを飲みますか？
+
+
+Yes  >  朝からお酒を飲むのはよくありません。
+ 
+11  > 叔父さんの誕生日を覚えているんですね。
+
+手紙を送りたいんですね。
+
+郵便局へ行く
+
+
+12 こんにちは。ポストカードとペンとスタンプをお願いします。
+はい、どうぞ
+
+13 You 
+
+Dear uncle
+
+The purple fridge is on the beach. 灰皿
+
+This sentence 文章どんな意味があるのでしょうか？
+
+その手紙を女性に渡します。
+
+
+14 彼女はそれをあなたに返します。
+
+その手紙を女性に渡します。
+
+
+14 彼女はそれをあなたに返します。
+
+ああ
+> 切手を貼って、
+
+外に出る
+
+
+
+このピンクの髪の女の子はとてもかわいい」と思うのですね。
+
+>  Continue
+
+
+
+あなたは誰ですか？
+
+私はジョンです。20歳です。アニメと漫画が好きです。
+
+
+日本語が上手ですね。
+
+ひらがな、カタカナを覚えました。次は何だろう？
+
+
+元気or mina no nihongoのような本を買って、宿題をする。
+
+これらの本は、本物の日本語ではありません。
+
+Do you want to 
+
+> buy food ?
+
+You take money from your purse
+
+> buy a weapon ? 
+
+> buy objects ?
+
+
+
+
+Enveloppe and letter in the dungeon written in hiragana katakana and kanji
+
+You buy 
+
+It's expensive ! 
+
+Buy 
+
+Do you want red or green apples ? 野菜
+The apples are red and look delicious
+
+Buy potions  (and see celestina)
+
+
+You talk like a Japanese student
+
+
+You have every thing you need. Go to Dungeon
+
+
+You walk 
+
+
+You walk 
+
+どんな意味があるのでしょうか？
+You make a sandwitch
+図書館
+You walk
+交差点 crossing
+廊下
+地下鉄 in the dungeon the wagon
+河
+疲れる
+汚い
+帰る
+賑やか
+卵
+曇る
+晴れる
+休む
+渡す
+暖かい
+効く
+涼しい
+狭い
+便利
+痛い
+忘れる
+跳ぶ
+立派
+軽い
+hen
+もう一度
+時計
+
+Go to pst office.  you borrow a 万年筆 The Korean policeman blabl 
+
+What does that mean ?
+
+Celes is KAwaii
+
+
+HAve you brushed your teeth 磨く?
+
+You remember yuor uncle's birthday. I forgot about him
+
+Classe de squelette 皆 
