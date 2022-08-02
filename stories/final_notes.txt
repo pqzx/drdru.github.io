@@ -10,6 +10,21 @@
 そうですよ
 qui est ce , Tube map
 
+Page de pan add furignana and check
+
+?  🧝🏹 クラビッツが死にます 
+
+
+
+T change size furigana. Add to book_pages css
+rt {
+
+font-size: 10%;
+
+}
+
+
+
 Calendar or Birthday ecrit en Kana. Enveloppe ? Voyaje au Japon ! Let's learn about JApan on Wikipedia.
 
 
